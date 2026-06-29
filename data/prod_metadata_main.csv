@@ -1,0 +1,820 @@
+Application_Name,Business_Line,Database_Name,Table_Name,Column_Name,Prod_Classification,Prod_PII_Flag,Prod_Business_Owner,Prod_Technical_Owner,Prod_Metadata_Status,Last_Updated_Date
+CardHub,Cards,EDW_CARDHUB,CARD_ACCOUNT,SOURCE_SYSTEM,Internal,No,Data Steward B,Tech Owner B,Complete,2026-06-20
+CardHub,Cards,EDW_CARDHUB,CARD_LIMIT,SOURCE_SYSTEM_CD,Public,No,Data Steward A,Tech Owner D,Complete,2026-01-08
+Customer360,Retail Banking,EDW_CUSTOMER,CUSTOMER_PROFILE,SSN_LAST4,Restricted,Yes,Data Steward E,Tech Owner A,Complete,2026-02-13
+TreasuryOps,Treasury,EDW_TREASURY,LIQUIDITY_REPORT,STATUS_CODE_NUM,Internal,No,Data Steward E,Tech Owner D,Complete,2026-02-02
+BranchAnalytics,Retail Banking,EDW_BRANCHAN,BRANCH_KPI,PHONE_NUMBER_DT,Confidential,Yes,Data Steward A,Tech Owner B,Complete,2026-01-28
+RiskView,Risk,EDW_RISKVIEW,FRAUD_ALERT,LAST_NAME,Confidential,Yes,Data Steward C,Tech Owner A,Complete,2026-03-19
+PaymentsCore,Payments,EDW_PAYMENTS,PAYMENT_TRANSACTION,STATE_CODE_DT,Public,No,Data Steward C,Tech Owner C,Complete,2026-03-03
+BranchAnalytics,Retail Banking,EDW_BRANCHAN,BRANCH_KPI,FIRST_NAME_SRC,Confidential,Yes,Data Steward A,Tech Owner C,Complete,2026-05-04
+RiskView,Risk,EDW_RISKVIEW,MODEL_OUTPUT,SSN_LAST4_NUM,Restricted,Yes,Data Steward A,Tech Owner A,Complete,2026-06-01
+TreasuryOps,Treasury,EDW_TREASURY,FX_RATE,TRANSACTION_ID_DT,Internal,No,Data Steward B,Tech Owner A,Complete,2026-03-29
+FinanceMart,Finance,EDW_FINANCEM,COST_CENTER,STATUS_CODE_DT,Restricted,No,Data Steward C,Tech Owner B,Complete,2026-06-21
+RiskView,Risk,EDW_RISKVIEW,RISK_SCORE,CREATED_TS,Internal,No,Data Steward A,Tech Owner B,Complete,2026-03-25
+TreasuryOps,Treasury,EDW_TREASURY,CASH_POSITION,OPEN_DATE_SRC,Public,No,Data Steward C,Tech Owner B,Complete,2026-04-14
+RiskView,Risk,EDW_RISKVIEW,RISK_SCORE,EMAIL_ADDRESS_DT,Confidential,No,Data Steward A,Tech Owner C,Complete,2026-01-16
+FinanceMart,Finance,EDW_FINANCEM,GL_BALANCE,SSN_LAST4_CD,Restricted,Yes,Data Steward C,Tech Owner B,Complete,2026-06-12
+BranchAnalytics,Retail Banking,EDW_BRANCHAN,TELLER_ACTIVITY,STATUS_CODE_SRC,Internal,No,Data Steward B,Tech Owner C,Complete,2026-04-26
+TreasuryOps,Treasury,EDW_TREASURY,LIQUIDITY_REPORT,PAYMENT_AMOUNT_CD,Confidential,No,Data Steward C,Tech Owner C,Complete,2026-04-25
+PaymentsCore,Payments,EDW_PAYMENTS,MERCHANT_PROFILE,EMAIL_ADDRESS,Confidential,Yes,Data Steward E,Tech Owner D,Complete,2026-06-23
+Customer360,Retail Banking,EDW_CUSTOMER,CUSTOMER_PROFILE,LAST_NAME_NUM,Confidential,Yes,Data Steward B,Tech Owner D,Complete,2026-03-30
+Customer360,Retail Banking,EDW_CUSTOMER,CUSTOMER_ACCOUNT_LINK,SOURCE_SYSTEM,Internal,No,Data Steward E,Tech Owner C,Complete,2026-01-16
+RiskView,Risk,EDW_RISKVIEW,RISK_SCORE,ADDRESS_LINE_1_SRC,Confidential,Yes,Data Steward B,Tech Owner D,Complete,2026-01-01
+FinanceMart,Finance,EDW_FINANCEM,REVENUE_SUMMARY,BUSINESS_UNIT,Internal,No,Data Steward E,Tech Owner A,Complete,2026-03-14
+FinanceMart,Finance,EDW_FINANCEM,REVENUE_SUMMARY,BALANCE_AMOUNT_CD,Confidential,No,Data Steward B,Tech Owner B,Complete,2026-06-01
+LoanManager,Loans,EDW_LOANMANA,LOAN_COLLATERAL,BUSINESS_UNIT_CD,Internal,No,Data Steward A,Tech Owner C,Complete,2026-04-14
+Customer360,Retail Banking,EDW_CUSTOMER,CUSTOMER_PROFILE,STATE_CODE_DT,Public,No,Data Steward C,Tech Owner B,Complete,2026-02-14
+TreasuryOps,Treasury,EDW_TREASURY,LIQUIDITY_REPORT,TRANSACTION_ID,Internal,No,Data Steward D,Tech Owner A,Complete,2026-04-03
+LoanManager,Loans,EDW_LOANMANA,LOAN_ACCOUNT,CREATED_TS_SRC,Internal,Yes,Data Steward E,Tech Owner B,Complete,2026-06-21
+RiskView,Risk,EDW_RISKVIEW,FRAUD_ALERT,BALANCE_AMOUNT_SRC,Confidential,Yes,Data Steward A,Tech Owner B,Complete,2026-02-04
+CardHub,Cards,EDW_CARDHUB,CARD_TRANSACTION,CUSTOMER_ID_CD,Confidential,Yes,Data Steward E,Tech Owner B,Complete,2026-06-04
+TreasuryOps,Treasury,EDW_TREASURY,CASH_POSITION,TRANSACTION_ID_NUM,Internal,No,Data Steward A,Tech Owner B,Complete,2026-05-11
+Customer360,Retail Banking,EDW_CUSTOMER,CUSTOMER_CONTACT,TRANSACTION_ID_CD,Internal,No,Data Steward B,Tech Owner D,Complete,2026-02-27
+BranchAnalytics,Retail Banking,EDW_BRANCHAN,BRANCH_VISIT,PAYMENT_AMOUNT,Confidential,No,Data Steward E,Tech Owner D,Complete,2026-03-02
+BranchAnalytics,Retail Banking,EDW_BRANCHAN,TELLER_ACTIVITY,SSN_LAST4,Restricted,Yes,Data Steward A,Tech Owner D,Complete,2026-05-20
+PaymentsCore,Payments,EDW_PAYMENTS,MERCHANT_PROFILE,OPEN_DATE_DT,Internal,No,Data Steward A,Tech Owner A,Complete,2026-05-26
+PaymentsCore,Payments,EDW_PAYMENTS,SETTLEMENT_BATCH,CITY_DT,Internal,No,Data Steward A,Tech Owner B,Complete,2026-05-04
+TreasuryOps,Treasury,EDW_TREASURY,LIQUIDITY_REPORT,OPEN_DATE,Internal,No,Data Steward D,Tech Owner B,Complete,2026-05-15
+BranchAnalytics,Retail Banking,EDW_BRANCHAN,BRANCH_VISIT,TRANSACTION_ID_SRC,Internal,No,Data Steward E,Tech Owner A,Complete,2026-01-21
+Customer360,Retail Banking,EDW_CUSTOMER,CUSTOMER_PROFILE,BUSINESS_UNIT_DT,Internal,No,Data Steward B,Tech Owner B,Complete,2026-05-01
+BranchAnalytics,Retail Banking,EDW_BRANCHAN,TELLER_ACTIVITY,SSN_LAST4_DT,Restricted,Yes,Data Steward D,Tech Owner A,Complete,2026-01-20
+PaymentsCore,Payments,EDW_PAYMENTS,PAYMENT_TRANSACTION,ZIP_CODE,Internal,No,Data Steward D,Tech Owner C,Complete,2026-03-21
+BranchAnalytics,Retail Banking,EDW_BRANCHAN,BRANCH_VISIT,SSN_LAST4,Restricted,Yes,Data Steward B,Tech Owner A,Complete,2026-01-03
+Customer360,Retail Banking,EDW_CUSTOMER,CUSTOMER_ACCOUNT_LINK,CITY,Internal,No,Data Steward A,Tech Owner D,Complete,2026-05-27
+LoanManager,Loans,EDW_LOANMANA,LOAN_ACCOUNT,BALANCE_AMOUNT,Confidential,No,Data Steward B,Tech Owner A,Complete,2026-03-17
+CardHub,Cards,EDW_CARDHUB,CARD_LIMIT,EMAIL_ADDRESS_SRC,Confidential,Yes,Data Steward A,Tech Owner B,Complete,2026-06-02
+Customer360,Retail Banking,EDW_CUSTOMER,CUSTOMER_ACCOUNT_LINK,TRANSACTION_ID_SRC,Confidential,No,Data Steward E,Tech Owner C,Complete,2026-03-08
+TreasuryOps,Treasury,EDW_TREASURY,LIQUIDITY_REPORT,UPDATED_TS,Internal,No,Data Steward B,Tech Owner C,Complete,2026-03-16
+Customer360,Retail Banking,EDW_CUSTOMER,CUSTOMER_CONTACT,PRODUCT_CODE_CD,Internal,No,Data Steward A,Tech Owner A,Incomplete,2026-03-13
+TreasuryOps,Treasury,EDW_TREASURY,LIQUIDITY_REPORT,PHONE_NUMBER,Confidential,Yes,Data Steward C,Tech Owner A,Complete,2026-01-04
+RiskView,Risk,EDW_RISKVIEW,FRAUD_ALERT,DATE_OF_BIRTH_SRC,Restricted,Yes,Data Steward E,Tech Owner C,Complete,2026-06-01
+Customer360,Retail Banking,EDW_CUSTOMER,CUSTOMER_ACCOUNT_LINK,PAYMENT_AMOUNT,Confidential,No,Data Steward A,Tech Owner B,Incomplete,2026-02-14
+CardHub,Cards,EDW_CARDHUB,CARD_ACCOUNT,SOURCE_SYSTEM_CD,Internal,No,Data Steward B,Tech Owner C,Complete,2026-01-09
+TreasuryOps,Treasury,EDW_TREASURY,LIQUIDITY_REPORT,CITY,Internal,No,Data Steward C,Tech Owner D,Complete,2026-06-02
+Customer360,Retail Banking,EDW_CUSTOMER,CUSTOMER_PROFILE,STATUS_CODE_SRC,Internal,No,Data Steward C,Tech Owner A,Complete,2026-04-16
+RiskView,Risk,EDW_RISKVIEW,RISK_SCORE,STATUS_CODE,Internal,No,Data Steward D,Tech Owner D,Complete,2026-06-13
+PaymentsCore,Payments,EDW_PAYMENTS,SETTLEMENT_BATCH,CUSTOMER_ID,Internal,Yes,Data Steward A,Tech Owner B,Complete,2026-01-30
+Customer360,Retail Banking,EDW_CUSTOMER,CUSTOMER_CONTACT,INTEREST_RATE_CD,Internal,No,Data Steward B,Tech Owner D,Incomplete,2026-05-17
+Customer360,Retail Banking,EDW_CUSTOMER,CUSTOMER_CONTACT,STATE_CODE_DT,Confidential,No,Data Steward A,Tech Owner C,Complete,2026-04-22
+TreasuryOps,Treasury,EDW_TREASURY,LIQUIDITY_REPORT,FIRST_NAME,Confidential,Yes,Data Steward E,Tech Owner D,Complete,2026-06-24
+LoanManager,Loans,EDW_LOANMANA,LOAN_ACCOUNT,DATE_OF_BIRTH_DT,Restricted,Yes,Data Steward B,Tech Owner D,Complete,2026-06-13
+LoanManager,Loans,EDW_LOANMANA,LOAN_COLLATERAL,CITY_DT,Internal,No,Data Steward D,Tech Owner B,Complete,2026-06-16
+LoanManager,Loans,EDW_LOANMANA,LOAN_COLLATERAL,FIRST_NAME_SRC,Confidential,Yes,Data Steward A,Tech Owner D,Incomplete,2026-01-26
+TreasuryOps,Treasury,EDW_TREASURY,FX_RATE,STATE_CODE,Public,No,Data Steward B,Tech Owner B,Complete,2026-06-22
+TreasuryOps,Treasury,EDW_TREASURY,FX_RATE,CITY,Internal,No,Data Steward A,Tech Owner C,Complete,2026-06-23
+PaymentsCore,Payments,EDW_PAYMENTS,SETTLEMENT_BATCH,PAYMENT_AMOUNT,Confidential,No,Data Steward A,Tech Owner A,Complete,2026-01-03
+RiskView,Risk,EDW_RISKVIEW,FRAUD_ALERT,PRODUCT_CODE_CD,Internal,No,Data Steward A,Tech Owner B,Complete,2026-03-31
+TreasuryOps,Treasury,EDW_TREASURY,FX_RATE,ACCOUNT_ID_NUM,Confidential,No,Data Steward D,Tech Owner A,Complete,2026-06-08
+TreasuryOps,Treasury,EDW_TREASURY,FX_RATE,COUNTRY_CODE,Public,Yes,Data Steward C,Tech Owner C,Complete,2026-01-31
+CardHub,Cards,EDW_CARDHUB,CARD_LIMIT,ADDRESS_LINE_1_CD,Confidential,Yes,Data Steward C,Tech Owner D,Complete,2026-06-15
+PaymentsCore,Payments,EDW_PAYMENTS,SETTLEMENT_BATCH,ADDRESS_LINE_1_CD,Confidential,Yes,Data Steward B,Tech Owner B,Incomplete,2026-02-17
+PaymentsCore,Payments,EDW_PAYMENTS,SETTLEMENT_BATCH,SOURCE_SYSTEM,Internal,No,Data Steward E,Tech Owner C,Complete,2026-03-12
+Customer360,Retail Banking,EDW_CUSTOMER,CUSTOMER_CONTACT,ADDRESS_LINE_1,Confidential,Yes,Data Steward D,Tech Owner C,Incomplete,2026-03-24
+BranchAnalytics,Retail Banking,EDW_BRANCHAN,TELLER_ACTIVITY,CREATED_TS,Internal,No,Data Steward E,Tech Owner D,Complete,2026-03-27
+CardHub,Cards,EDW_CARDHUB,CARD_TRANSACTION,BALANCE_AMOUNT_NUM,Confidential,No,Data Steward A,Tech Owner C,Complete,2026-03-09
+TreasuryOps,Treasury,EDW_TREASURY,LIQUIDITY_REPORT,ADDRESS_LINE_1,Confidential,Yes,Data Steward B,Tech Owner B,Complete,2026-02-15
+Customer360,Retail Banking,EDW_CUSTOMER,CUSTOMER_PROFILE,CLOSE_DATE_CD,Internal,No,Data Steward A,Tech Owner C,Complete,2026-04-21
+TreasuryOps,Treasury,EDW_TREASURY,LIQUIDITY_REPORT,UPDATED_TS_SRC,Public,No,Data Steward D,Tech Owner D,Complete,2026-01-27
+LoanManager,Loans,EDW_LOANMANA,LOAN_COLLATERAL,BALANCE_AMOUNT_SRC,Confidential,No,Data Steward A,Tech Owner B,Complete,2026-01-10
+BranchAnalytics,Retail Banking,EDW_BRANCHAN,BRANCH_VISIT,OPEN_DATE_NUM,Internal,No,Data Steward E,Tech Owner C,Complete,2026-03-26
+TreasuryOps,Treasury,EDW_TREASURY,LIQUIDITY_REPORT,PHONE_NUMBER_DT,Confidential,Yes,Data Steward E,Tech Owner D,Complete,2026-01-18
+TreasuryOps,Treasury,EDW_TREASURY,FX_RATE,OPEN_DATE,Internal,Yes,Data Steward C,Tech Owner B,Complete,2026-05-04
+RiskView,Risk,EDW_RISKVIEW,FRAUD_ALERT,PAYMENT_AMOUNT,Restricted,No,Data Steward B,Tech Owner B,Complete,2026-04-13
+PaymentsCore,Payments,EDW_PAYMENTS,SETTLEMENT_BATCH,LAST_NAME_NUM,Confidential,No,Data Steward B,Tech Owner A,Complete,2026-03-29
+PaymentsCore,Payments,EDW_PAYMENTS,MERCHANT_PROFILE,PAYMENT_AMOUNT_SRC,Confidential,No,Data Steward D,Tech Owner A,Complete,2026-02-15
+PaymentsCore,Payments,EDW_PAYMENTS,MERCHANT_PROFILE,BUSINESS_UNIT_CD,Internal,No,Data Steward A,Tech Owner D,Complete,2026-03-18
+Customer360,Retail Banking,EDW_CUSTOMER,CUSTOMER_CONTACT,ADDRESS_LINE_1_DT,Confidential,Yes,Data Steward D,Tech Owner D,Complete,2026-04-02
+TreasuryOps,Treasury,EDW_TREASURY,FX_RATE,EMAIL_ADDRESS,Confidential,Yes,Data Steward B,Tech Owner D,Complete,2026-02-18
+PaymentsCore,Payments,EDW_PAYMENTS,MERCHANT_PROFILE,CREATED_TS_NUM,Restricted,No,Data Steward D,Tech Owner B,Complete,2026-04-10
+LoanManager,Loans,EDW_LOANMANA,LOAN_COLLATERAL,PAYMENT_AMOUNT,Confidential,No,Data Steward D,Tech Owner A,Complete,2026-04-26
+PaymentsCore,Payments,EDW_PAYMENTS,PAYMENT_TRANSACTION,OPEN_DATE,Internal,No,Data Steward A,Tech Owner C,Complete,2026-01-15
+RiskView,Risk,EDW_RISKVIEW,RISK_SCORE,OPEN_DATE,Internal,No,Data Steward C,Tech Owner C,Complete,2026-01-31
+PaymentsCore,Payments,EDW_PAYMENTS,MERCHANT_PROFILE,TRANSACTION_ID_SRC,Internal,No,Data Steward A,Tech Owner A,Incomplete,2026-05-29
+TreasuryOps,Treasury,EDW_TREASURY,LIQUIDITY_REPORT,TRANSACTION_ID_DT,Restricted,No,Data Steward A,Tech Owner A,Complete,2026-06-17
+TreasuryOps,Treasury,EDW_TREASURY,CASH_POSITION,PRODUCT_CODE,Internal,No,Data Steward A,Tech Owner B,Complete,2026-01-04
+CardHub,Cards,EDW_CARDHUB,CARD_LIMIT,SSN_LAST4_SRC,Restricted,Yes,Data Steward C,Tech Owner C,Complete,2026-02-13
+CardHub,Cards,EDW_CARDHUB,CARD_ACCOUNT,ADDRESS_LINE_1,Confidential,No,Data Steward E,Tech Owner A,Complete,2026-01-28
+PaymentsCore,Payments,EDW_PAYMENTS,MERCHANT_PROFILE,UPDATED_TS,Internal,No,Data Steward A,Tech Owner B,Complete,2026-06-23
+FinanceMart,Finance,EDW_FINANCEM,REVENUE_SUMMARY,PRODUCT_CODE_DT,Internal,No,Data Steward A,Tech Owner A,Complete,2026-05-28
+PaymentsCore,Payments,EDW_PAYMENTS,SETTLEMENT_BATCH,STATE_CODE,Public,No,Data Steward E,Tech Owner C,Complete,2026-02-24
+PaymentsCore,Payments,EDW_PAYMENTS,MERCHANT_PROFILE,FIRST_NAME_SRC,Confidential,No,Data Steward C,Tech Owner D,Complete,2026-01-17
+PaymentsCore,Payments,EDW_PAYMENTS,PAYMENT_TRANSACTION,SOURCE_SYSTEM_CD,Internal,No,Data Steward C,Tech Owner D,Complete,2026-04-05
+PaymentsCore,Payments,EDW_PAYMENTS,SETTLEMENT_BATCH,INTEREST_RATE,Public,No,Data Steward C,Tech Owner B,Complete,2026-05-29
+FinanceMart,Finance,EDW_FINANCEM,COST_CENTER,PHONE_NUMBER_CD,Confidential,Yes,Data Steward C,Tech Owner A,Complete,2026-03-14
+TreasuryOps,Treasury,EDW_TREASURY,CASH_POSITION,EMAIL_ADDRESS_NUM,Confidential,Yes,Data Steward C,Tech Owner D,Complete,2026-02-22
+TreasuryOps,Treasury,EDW_TREASURY,LIQUIDITY_REPORT,CLOSE_DATE_NUM,Internal,No,Data Steward D,Tech Owner D,Complete,2026-06-06
+CardHub,Cards,EDW_CARDHUB,CARD_TRANSACTION,EMAIL_ADDRESS_SRC,Confidential,Yes,Data Steward B,Tech Owner C,Complete,2026-05-08
+RiskView,Risk,EDW_RISKVIEW,FRAUD_ALERT,PAYMENT_AMOUNT_CD,Confidential,No,Data Steward C,Tech Owner D,Complete,2026-03-19
+RiskView,Risk,EDW_RISKVIEW,FRAUD_ALERT,UPDATED_TS_SRC,Internal,Yes,Data Steward C,Tech Owner C,Complete,2026-02-19
+TreasuryOps,Treasury,EDW_TREASURY,CASH_POSITION,SOURCE_SYSTEM,Internal,No,Data Steward C,Tech Owner A,Complete,2026-05-19
+LoanManager,Loans,EDW_LOANMANA,LOAN_ACCOUNT,SSN_LAST4_NUM,Restricted,Yes,Data Steward D,Tech Owner A,Complete,2026-06-18
+FinanceMart,Finance,EDW_FINANCEM,GL_BALANCE,SSN_LAST4,Restricted,Yes,Data Steward B,Tech Owner C,Complete,2026-05-02
+FinanceMart,Finance,EDW_FINANCEM,GL_BALANCE,UPDATED_TS_CD,Confidential,No,Data Steward B,Tech Owner C,Complete,2026-01-12
+Customer360,Retail Banking,EDW_CUSTOMER,CUSTOMER_ACCOUNT_LINK,ADDRESS_LINE_1_NUM,Confidential,Yes,Data Steward B,Tech Owner D,Complete,2026-03-27
+Customer360,Retail Banking,EDW_CUSTOMER,CUSTOMER_ACCOUNT_LINK,ADDRESS_LINE_1_SRC,Confidential,Yes,Data Steward D,Tech Owner D,Complete,2026-01-14
+LoanManager,Loans,EDW_LOANMANA,LOAN_ACCOUNT,PHONE_NUMBER_DT,Confidential,Yes,Data Steward D,Tech Owner A,Complete,2026-01-08
+PaymentsCore,Payments,EDW_PAYMENTS,MERCHANT_PROFILE,TRANSACTION_ID_CD,Internal,No,Data Steward A,Tech Owner B,Complete,2026-03-02
+FinanceMart,Finance,EDW_FINANCEM,GL_BALANCE,EMAIL_ADDRESS,Confidential,Yes,Data Steward E,Tech Owner C,Complete,2026-04-18
+TreasuryOps,Treasury,EDW_TREASURY,LIQUIDITY_REPORT,ZIP_CODE_SRC,Internal,No,Data Steward D,Tech Owner C,Incomplete,2026-03-25
+PaymentsCore,Payments,EDW_PAYMENTS,MERCHANT_PROFILE,INTEREST_RATE_CD,Internal,No,Data Steward A,Tech Owner A,Complete,2026-04-07
+TreasuryOps,Treasury,EDW_TREASURY,FX_RATE,CREATED_TS,Confidential,No,Data Steward B,Tech Owner B,Complete,2026-05-05
+CardHub,Cards,EDW_CARDHUB,CARD_ACCOUNT,CUSTOMER_ID_SRC,Confidential,Yes,Data Steward D,Tech Owner D,Complete,2026-04-10
+Customer360,Retail Banking,EDW_CUSTOMER,CUSTOMER_PROFILE,ADDRESS_LINE_1_NUM,Confidential,Yes,Data Steward C,Tech Owner D,Complete,2026-06-11
+TreasuryOps,Treasury,EDW_TREASURY,FX_RATE,STATUS_CODE_CD,Restricted,No,Data Steward B,Tech Owner D,Complete,2026-02-02
+TreasuryOps,Treasury,EDW_TREASURY,LIQUIDITY_REPORT,LAST_NAME,Confidential,Yes,Data Steward B,Tech Owner A,Complete,2026-04-30
+LoanManager,Loans,EDW_LOANMANA,LOAN_PAYMENT,PRODUCT_CODE_NUM,Internal,No,Data Steward E,Tech Owner C,Complete,2026-02-26
+CardHub,Cards,EDW_CARDHUB,CARD_TRANSACTION,UPDATED_TS,Internal,No,Data Steward D,Tech Owner C,Complete,2026-06-13
+BranchAnalytics,Retail Banking,EDW_BRANCHAN,TELLER_ACTIVITY,TRANSACTION_ID_CD,Internal,No,Data Steward A,Tech Owner D,Complete,2026-05-22
+FinanceMart,Finance,EDW_FINANCEM,GL_BALANCE,TRANSACTION_ID,Internal,No,Data Steward E,Tech Owner A,Complete,2026-05-14
+FinanceMart,Finance,EDW_FINANCEM,REVENUE_SUMMARY,ACCOUNT_ID_DT,Confidential,Yes,Data Steward B,Tech Owner D,Incomplete,2026-04-29
+BranchAnalytics,Retail Banking,EDW_BRANCHAN,TELLER_ACTIVITY,DATE_OF_BIRTH_CD,Restricted,Yes,Data Steward D,Tech Owner D,Complete,2026-04-22
+BranchAnalytics,Retail Banking,EDW_BRANCHAN,TELLER_ACTIVITY,COUNTRY_CODE,Public,No,Data Steward C,Tech Owner A,Complete,2026-05-27
+FinanceMart,Finance,EDW_FINANCEM,REVENUE_SUMMARY,ZIP_CODE_DT,Internal,No,Data Steward E,Tech Owner A,Complete,2026-01-11
+CardHub,Cards,EDW_CARDHUB,CARD_TRANSACTION,PHONE_NUMBER,Confidential,Yes,Data Steward A,Tech Owner D,Complete,2026-01-09
+Customer360,Retail Banking,EDW_CUSTOMER,CUSTOMER_ACCOUNT_LINK,PAYMENT_AMOUNT_SRC,Confidential,No,Data Steward D,Tech Owner A,Complete,2026-01-26
+RiskView,Risk,EDW_RISKVIEW,MODEL_OUTPUT,BUSINESS_UNIT_SRC,Internal,No,Data Steward D,Tech Owner A,Complete,2026-01-04
+FinanceMart,Finance,EDW_FINANCEM,REVENUE_SUMMARY,LAST_NAME,Confidential,Yes,Data Steward D,Tech Owner D,Complete,2026-02-03
+Customer360,Retail Banking,EDW_CUSTOMER,CUSTOMER_ACCOUNT_LINK,PRODUCT_CODE_DT,Restricted,No,Data Steward B,Tech Owner B,Complete,2026-01-24
+Customer360,Retail Banking,EDW_CUSTOMER,CUSTOMER_ACCOUNT_LINK,COUNTRY_CODE,Public,No,Data Steward B,Tech Owner A,Complete,2026-05-27
+CardHub,Cards,EDW_CARDHUB,CARD_LIMIT,LAST_NAME_SRC,Confidential,Yes,Data Steward C,Tech Owner C,Complete,2026-04-29
+BranchAnalytics,Retail Banking,EDW_BRANCHAN,TELLER_ACTIVITY,EMAIL_ADDRESS_SRC,Confidential,Yes,Data Steward E,Tech Owner B,Complete,2026-04-05
+TreasuryOps,Treasury,EDW_TREASURY,LIQUIDITY_REPORT,BALANCE_AMOUNT_NUM,Restricted,No,Data Steward B,Tech Owner A,Complete,2026-06-10
+PaymentsCore,Payments,EDW_PAYMENTS,MERCHANT_PROFILE,BALANCE_AMOUNT,Confidential,No,Data Steward A,Tech Owner C,Complete,2026-04-20
+BranchAnalytics,Retail Banking,EDW_BRANCHAN,BRANCH_VISIT,OPEN_DATE_CD,Internal,No,Data Steward D,Tech Owner C,Complete,2026-05-19
+PaymentsCore,Payments,EDW_PAYMENTS,MERCHANT_PROFILE,CITY_DT,Internal,No,Data Steward B,Tech Owner B,Complete,2026-01-21
+PaymentsCore,Payments,EDW_PAYMENTS,PAYMENT_TRANSACTION,BUSINESS_UNIT_SRC,Internal,No,Data Steward A,Tech Owner C,Complete,2026-01-15
+PaymentsCore,Payments,EDW_PAYMENTS,MERCHANT_PROFILE,CREATED_TS_DT,Internal,Yes,Data Steward B,Tech Owner D,Complete,2026-01-14
+LoanManager,Loans,EDW_LOANMANA,LOAN_COLLATERAL,INTEREST_RATE,Internal,No,Data Steward A,Tech Owner D,Complete,2026-04-04
+BranchAnalytics,Retail Banking,EDW_BRANCHAN,BRANCH_VISIT,SOURCE_SYSTEM,Internal,No,Data Steward D,Tech Owner B,Complete,2026-01-18
+BranchAnalytics,Retail Banking,EDW_BRANCHAN,TELLER_ACTIVITY,CITY_CD,Internal,No,Data Steward D,Tech Owner A,Incomplete,2026-03-27
+PaymentsCore,Payments,EDW_PAYMENTS,MERCHANT_PROFILE,STATUS_CODE_NUM,Internal,No,Data Steward D,Tech Owner A,Complete,2026-05-29
+CardHub,Cards,EDW_CARDHUB,CARD_ACCOUNT,STATUS_CODE_NUM,Internal,No,Data Steward C,Tech Owner B,Complete,2026-02-27
+PaymentsCore,Payments,EDW_PAYMENTS,PAYMENT_TRANSACTION,BUSINESS_UNIT_NUM,Internal,No,Data Steward A,Tech Owner D,Incomplete,2026-04-19
+FinanceMart,Finance,EDW_FINANCEM,GL_BALANCE,ACCOUNT_ID,Confidential,Yes,Data Steward A,Tech Owner C,Complete,2026-05-09
+PaymentsCore,Payments,EDW_PAYMENTS,SETTLEMENT_BATCH,CREATED_TS_DT,Internal,No,Data Steward B,Tech Owner B,Complete,2026-05-17
+CardHub,Cards,EDW_CARDHUB,CARD_LIMIT,ZIP_CODE_CD,Internal,No,Data Steward B,Tech Owner D,Complete,2026-04-26
+LoanManager,Loans,EDW_LOANMANA,LOAN_ACCOUNT,OPEN_DATE_NUM,Internal,No,Data Steward C,Tech Owner B,Complete,2026-01-17
+Customer360,Retail Banking,EDW_CUSTOMER,CUSTOMER_CONTACT,ADDRESS_LINE_1_NUM,Confidential,Yes,Data Steward E,Tech Owner B,Complete,2026-03-15
+BranchAnalytics,Retail Banking,EDW_BRANCHAN,TELLER_ACTIVITY,INTEREST_RATE,Internal,Yes,Data Steward D,Tech Owner C,Complete,2026-03-12
+FinanceMart,Finance,EDW_FINANCEM,GL_BALANCE,ZIP_CODE_DT,Internal,No,Data Steward D,Tech Owner A,Complete,2026-05-14
+PaymentsCore,Payments,EDW_PAYMENTS,SETTLEMENT_BATCH,STATE_CODE_CD,Public,No,Data Steward C,Tech Owner C,Complete,2026-06-24
+PaymentsCore,Payments,EDW_PAYMENTS,MERCHANT_PROFILE,CUSTOMER_ID_CD,Confidential,Yes,Data Steward A,Tech Owner D,Complete,2026-04-18
+LoanManager,Loans,EDW_LOANMANA,LOAN_COLLATERAL,FIRST_NAME_NUM,Confidential,Yes,Data Steward A,Tech Owner C,Complete,2026-03-01
+Customer360,Retail Banking,EDW_CUSTOMER,CUSTOMER_ACCOUNT_LINK,STATE_CODE_NUM,Public,No,Data Steward B,Tech Owner A,Complete,2026-04-16
+RiskView,Risk,EDW_RISKVIEW,MODEL_OUTPUT,COUNTRY_CODE,Public,No,Data Steward B,Tech Owner B,Complete,2026-03-25
+RiskView,Risk,EDW_RISKVIEW,MODEL_OUTPUT,BALANCE_AMOUNT,Confidential,No,Data Steward B,Tech Owner C,Complete,2026-05-21
+FinanceMart,Finance,EDW_FINANCEM,REVENUE_SUMMARY,CITY_DT,Internal,No,Data Steward D,Tech Owner D,Complete,2026-03-20
+LoanManager,Loans,EDW_LOANMANA,LOAN_ACCOUNT,CREATED_TS_NUM,Internal,No,Data Steward C,Tech Owner C,Complete,2026-01-13
+PaymentsCore,Payments,EDW_PAYMENTS,PAYMENT_TRANSACTION,PHONE_NUMBER_CD,Confidential,Yes,Data Steward A,Tech Owner D,Complete,2026-05-18
+BranchAnalytics,Retail Banking,EDW_BRANCHAN,BRANCH_VISIT,PRODUCT_CODE_CD,Internal,No,Data Steward C,Tech Owner B,Complete,2026-06-20
+CardHub,Cards,EDW_CARDHUB,CARD_LIMIT,OPEN_DATE_NUM,Internal,No,Data Steward C,Tech Owner D,Complete,2026-01-11
+LoanManager,Loans,EDW_LOANMANA,LOAN_ACCOUNT,ACCOUNT_ID,Confidential,Yes,Data Steward D,Tech Owner A,Complete,2026-03-08
+TreasuryOps,Treasury,EDW_TREASURY,LIQUIDITY_REPORT,LAST_NAME_SRC,Confidential,Yes,Data Steward D,Tech Owner C,Complete,2026-01-09
+PaymentsCore,Payments,EDW_PAYMENTS,SETTLEMENT_BATCH,SOURCE_SYSTEM_NUM,Internal,No,Data Steward B,Tech Owner D,Complete,2026-04-25
+CardHub,Cards,EDW_CARDHUB,CARD_TRANSACTION,PRODUCT_CODE_SRC,Internal,No,Data Steward C,Tech Owner A,Complete,2026-02-01
+RiskView,Risk,EDW_RISKVIEW,RISK_SCORE,ZIP_CODE,Internal,No,Data Steward B,Tech Owner A,Complete,2026-02-07
+CardHub,Cards,EDW_CARDHUB,CARD_LIMIT,SSN_LAST4_NUM,Restricted,Yes,Data Steward E,Tech Owner A,Complete,2026-05-20
+RiskView,Risk,EDW_RISKVIEW,RISK_SCORE,LAST_NAME_DT,Confidential,Yes,Data Steward E,Tech Owner B,Complete,2026-03-17
+TreasuryOps,Treasury,EDW_TREASURY,LIQUIDITY_REPORT,SSN_LAST4_DT,Restricted,Yes,Data Steward B,Tech Owner C,Complete,2026-05-27
+Customer360,Retail Banking,EDW_CUSTOMER,CUSTOMER_CONTACT,LAST_NAME,Confidential,Yes,Data Steward E,Tech Owner C,Complete,2026-04-24
+CardHub,Cards,EDW_CARDHUB,CARD_LIMIT,CUSTOMER_ID,Confidential,Yes,Data Steward B,Tech Owner C,Complete,2026-01-11
+RiskView,Risk,EDW_RISKVIEW,RISK_SCORE,DATE_OF_BIRTH,Restricted,Yes,Data Steward A,Tech Owner B,Complete,2026-02-26
+CardHub,Cards,EDW_CARDHUB,CARD_LIMIT,TRANSACTION_ID_SRC,Internal,No,Data Steward D,Tech Owner C,Complete,2026-06-05
+CardHub,Cards,EDW_CARDHUB,CARD_TRANSACTION,BALANCE_AMOUNT,Confidential,No,Data Steward E,Tech Owner B,Complete,2026-03-13
+FinanceMart,Finance,EDW_FINANCEM,COST_CENTER,STATUS_CODE,Internal,No,Data Steward A,Tech Owner D,Complete,2026-05-12
+PaymentsCore,Payments,EDW_PAYMENTS,SETTLEMENT_BATCH,FIRST_NAME_SRC,Confidential,Yes,Data Steward D,Tech Owner A,Complete,2026-06-04
+RiskView,Risk,EDW_RISKVIEW,MODEL_OUTPUT,LAST_NAME,Confidential,Yes,Data Steward B,Tech Owner C,Complete,2026-04-03
+FinanceMart,Finance,EDW_FINANCEM,COST_CENTER,BALANCE_AMOUNT_CD,Confidential,No,Data Steward D,Tech Owner A,Complete,2026-04-05
+PaymentsCore,Payments,EDW_PAYMENTS,MERCHANT_PROFILE,OPEN_DATE_SRC,Internal,No,Data Steward D,Tech Owner A,Complete,2026-03-31
+PaymentsCore,Payments,EDW_PAYMENTS,MERCHANT_PROFILE,CREATED_TS,Internal,No,Data Steward C,Tech Owner C,Complete,2026-01-23
+BranchAnalytics,Retail Banking,EDW_BRANCHAN,BRANCH_VISIT,TRANSACTION_ID_DT,Internal,No,Data Steward A,Tech Owner A,Complete,2026-04-19
+CardHub,Cards,EDW_CARDHUB,CARD_LIMIT,SOURCE_SYSTEM,Internal,No,Data Steward B,Tech Owner A,Complete,2026-05-31
+RiskView,Risk,EDW_RISKVIEW,MODEL_OUTPUT,FIRST_NAME_SRC,Confidential,Yes,Data Steward C,Tech Owner D,Complete,2026-05-02
+FinanceMart,Finance,EDW_FINANCEM,REVENUE_SUMMARY,ADDRESS_LINE_1,Confidential,Yes,Data Steward A,Tech Owner B,Complete,2026-01-17
+BranchAnalytics,Retail Banking,EDW_BRANCHAN,BRANCH_VISIT,FIRST_NAME,Restricted,Yes,Data Steward E,Tech Owner C,Complete,2026-01-23
+FinanceMart,Finance,EDW_FINANCEM,REVENUE_SUMMARY,EMAIL_ADDRESS_DT,Confidential,Yes,Data Steward D,Tech Owner A,Complete,2026-04-29
+FinanceMart,Finance,EDW_FINANCEM,GL_BALANCE,DATE_OF_BIRTH,Restricted,Yes,Data Steward C,Tech Owner C,Complete,2026-04-08
+Customer360,Retail Banking,EDW_CUSTOMER,CUSTOMER_PROFILE,LAST_NAME_CD,Confidential,Yes,Data Steward D,Tech Owner A,Complete,2026-03-19
+Customer360,Retail Banking,EDW_CUSTOMER,CUSTOMER_PROFILE,SOURCE_SYSTEM_CD,Internal,No,Data Steward B,Tech Owner D,Incomplete,2026-04-29
+BranchAnalytics,Retail Banking,EDW_BRANCHAN,TELLER_ACTIVITY,DATE_OF_BIRTH,Restricted,Yes,Data Steward C,Tech Owner C,Complete,2026-06-13
+CardHub,Cards,EDW_CARDHUB,CARD_ACCOUNT,LAST_NAME,Confidential,Yes,Data Steward E,Tech Owner A,Complete,2026-06-20
+CardHub,Cards,EDW_CARDHUB,CARD_TRANSACTION,OPEN_DATE_NUM,Internal,No,Data Steward D,Tech Owner D,Incomplete,2026-06-15
+BranchAnalytics,Retail Banking,EDW_BRANCHAN,TELLER_ACTIVITY,PHONE_NUMBER,Confidential,Yes,Data Steward E,Tech Owner A,Complete,2026-01-18
+PaymentsCore,Payments,EDW_PAYMENTS,PAYMENT_TRANSACTION,ADDRESS_LINE_1_NUM,Confidential,Yes,Data Steward E,Tech Owner D,Complete,2026-05-25
+FinanceMart,Finance,EDW_FINANCEM,GL_BALANCE,EMAIL_ADDRESS_SRC,Confidential,Yes,Data Steward E,Tech Owner A,Complete,2026-05-02
+TreasuryOps,Treasury,EDW_TREASURY,FX_RATE,SSN_LAST4_DT,Internal,Yes,Data Steward B,Tech Owner C,Complete,2026-05-28
+RiskView,Risk,EDW_RISKVIEW,RISK_SCORE,CUSTOMER_ID_SRC,Confidential,Yes,Data Steward D,Tech Owner B,Complete,2026-04-29
+PaymentsCore,Payments,EDW_PAYMENTS,SETTLEMENT_BATCH,UPDATED_TS,Internal,No,Data Steward E,Tech Owner C,Incomplete,2026-01-14
+PaymentsCore,Payments,EDW_PAYMENTS,SETTLEMENT_BATCH,ACCOUNT_ID_SRC,Confidential,Yes,Data Steward A,Tech Owner D,Complete,2026-03-16
+RiskView,Risk,EDW_RISKVIEW,MODEL_OUTPUT,COUNTRY_CODE_CD,Public,No,Data Steward D,Tech Owner A,Complete,2026-06-10
+CardHub,Cards,EDW_CARDHUB,CARD_TRANSACTION,CUSTOMER_ID,Confidential,Yes,Data Steward B,Tech Owner D,Complete,2026-06-25
+CardHub,Cards,EDW_CARDHUB,CARD_TRANSACTION,FIRST_NAME,Confidential,No,Data Steward D,Tech Owner D,Complete,2026-04-03
+LoanManager,Loans,EDW_LOANMANA,LOAN_ACCOUNT,BALANCE_AMOUNT_NUM,Confidential,No,Data Steward A,Tech Owner B,Complete,2026-04-16
+RiskView,Risk,EDW_RISKVIEW,MODEL_OUTPUT,STATUS_CODE_DT,Internal,No,Data Steward B,Tech Owner B,Complete,2026-02-09
+LoanManager,Loans,EDW_LOANMANA,LOAN_PAYMENT,SSN_LAST4,Restricted,Yes,Data Steward E,Tech Owner B,Complete,2026-05-24
+CardHub,Cards,EDW_CARDHUB,CARD_ACCOUNT,BUSINESS_UNIT_NUM,Internal,No,Data Steward D,Tech Owner D,Complete,2026-05-22
+BranchAnalytics,Retail Banking,EDW_BRANCHAN,BRANCH_KPI,INTEREST_RATE_NUM,Internal,Yes,Data Steward E,Tech Owner C,Complete,2026-01-20
+BranchAnalytics,Retail Banking,EDW_BRANCHAN,TELLER_ACTIVITY,STATUS_CODE,Internal,No,Data Steward C,Tech Owner A,Complete,2026-03-21
+CardHub,Cards,EDW_CARDHUB,CARD_TRANSACTION,OPEN_DATE_SRC,Internal,No,Data Steward A,Tech Owner A,Complete,2026-06-02
+FinanceMart,Finance,EDW_FINANCEM,GL_BALANCE,STATUS_CODE_DT,Public,No,Data Steward A,Tech Owner D,Complete,2026-03-19
+Customer360,Retail Banking,EDW_CUSTOMER,CUSTOMER_CONTACT,INTEREST_RATE_NUM,Internal,No,Data Steward B,Tech Owner C,Complete,2026-02-28
+BranchAnalytics,Retail Banking,EDW_BRANCHAN,BRANCH_KPI,LAST_NAME,Confidential,Yes,Data Steward D,Tech Owner A,Complete,2026-01-21
+CardHub,Cards,EDW_CARDHUB,CARD_LIMIT,STATUS_CODE,Internal,No,Data Steward A,Tech Owner B,Complete,2026-05-04
+BranchAnalytics,Retail Banking,EDW_BRANCHAN,BRANCH_KPI,BALANCE_AMOUNT_CD,Confidential,No,Data Steward B,Tech Owner C,Complete,2026-01-09
+FinanceMart,Finance,EDW_FINANCEM,COST_CENTER,COUNTRY_CODE_DT,Public,Yes,Data Steward C,Tech Owner A,Complete,2026-05-01
+RiskView,Risk,EDW_RISKVIEW,RISK_SCORE,CITY,Public,No,Data Steward E,Tech Owner D,Complete,2026-06-20
+FinanceMart,Finance,EDW_FINANCEM,REVENUE_SUMMARY,CREATED_TS_CD,Internal,No,Data Steward B,Tech Owner B,Complete,2026-02-21
+LoanManager,Loans,EDW_LOANMANA,LOAN_PAYMENT,ADDRESS_LINE_1_NUM,Confidential,Yes,Data Steward D,Tech Owner B,Complete,2026-03-13
+CardHub,Cards,EDW_CARDHUB,CARD_TRANSACTION,PAYMENT_AMOUNT_SRC,Confidential,No,Data Steward C,Tech Owner B,Complete,2026-05-09
+CardHub,Cards,EDW_CARDHUB,CARD_LIMIT,CREATED_TS_SRC,Restricted,No,Data Steward E,Tech Owner C,Complete,2026-05-26
+RiskView,Risk,EDW_RISKVIEW,FRAUD_ALERT,DATE_OF_BIRTH,Restricted,Yes,Data Steward A,Tech Owner D,Complete,2026-03-14
+TreasuryOps,Treasury,EDW_TREASURY,CASH_POSITION,LAST_NAME,Confidential,Yes,Data Steward C,Tech Owner A,Complete,2026-05-02
+Customer360,Retail Banking,EDW_CUSTOMER,CUSTOMER_ACCOUNT_LINK,CITY_DT,Internal,No,Data Steward E,Tech Owner B,Complete,2026-06-22
+PaymentsCore,Payments,EDW_PAYMENTS,PAYMENT_TRANSACTION,DATE_OF_BIRTH,Restricted,Yes,Data Steward E,Tech Owner B,Complete,2026-04-08
+Customer360,Retail Banking,EDW_CUSTOMER,CUSTOMER_CONTACT,STATE_CODE_NUM,Public,No,Data Steward B,Tech Owner D,Complete,2026-01-29
+FinanceMart,Finance,EDW_FINANCEM,REVENUE_SUMMARY,OPEN_DATE,Internal,No,Data Steward E,Tech Owner B,Complete,2026-01-29
+BranchAnalytics,Retail Banking,EDW_BRANCHAN,BRANCH_VISIT,STATE_CODE_NUM,Public,No,Data Steward E,Tech Owner D,Complete,2026-03-15
+PaymentsCore,Payments,EDW_PAYMENTS,PAYMENT_TRANSACTION,SSN_LAST4_DT,Restricted,No,Data Steward E,Tech Owner B,Complete,2026-05-07
+Customer360,Retail Banking,EDW_CUSTOMER,CUSTOMER_ACCOUNT_LINK,CLOSE_DATE_DT,Internal,No,Data Steward C,Tech Owner A,Complete,2026-03-21
+CardHub,Cards,EDW_CARDHUB,CARD_TRANSACTION,TRANSACTION_ID_DT,Internal,No,Data Steward B,Tech Owner C,Complete,2026-04-15
+LoanManager,Loans,EDW_LOANMANA,LOAN_PAYMENT,TRANSACTION_ID,Internal,No,Data Steward D,Tech Owner C,Complete,2026-01-18
+PaymentsCore,Payments,EDW_PAYMENTS,PAYMENT_TRANSACTION,ZIP_CODE_CD,Internal,No,Data Steward E,Tech Owner B,Complete,2026-04-05
+CardHub,Cards,EDW_CARDHUB,CARD_TRANSACTION,EMAIL_ADDRESS,Confidential,No,Data Steward C,Tech Owner A,Complete,2026-06-23
+RiskView,Risk,EDW_RISKVIEW,RISK_SCORE,LAST_NAME,Confidential,Yes,Data Steward C,Tech Owner D,Complete,2026-01-27
+BranchAnalytics,Retail Banking,EDW_BRANCHAN,TELLER_ACTIVITY,PRODUCT_CODE,Internal,No,Data Steward A,Tech Owner A,Complete,2026-02-20
+TreasuryOps,Treasury,EDW_TREASURY,CASH_POSITION,PAYMENT_AMOUNT_NUM,Confidential,Yes,Data Steward E,Tech Owner D,Complete,2026-04-14
+FinanceMart,Finance,EDW_FINANCEM,GL_BALANCE,ADDRESS_LINE_1,Confidential,Yes,Data Steward A,Tech Owner B,Complete,2026-05-29
+BranchAnalytics,Retail Banking,EDW_BRANCHAN,BRANCH_VISIT,FIRST_NAME_DT,Confidential,Yes,Data Steward D,Tech Owner A,Complete,2026-04-02
+PaymentsCore,Payments,EDW_PAYMENTS,PAYMENT_TRANSACTION,PRODUCT_CODE,Internal,No,Data Steward B,Tech Owner D,Complete,2026-05-05
+CardHub,Cards,EDW_CARDHUB,CARD_LIMIT,STATE_CODE,Public,Yes,Data Steward E,Tech Owner A,Complete,2026-01-28
+BranchAnalytics,Retail Banking,EDW_BRANCHAN,BRANCH_VISIT,STATUS_CODE_SRC,Restricted,No,Data Steward C,Tech Owner C,Complete,2026-02-04
+RiskView,Risk,EDW_RISKVIEW,RISK_SCORE,STATE_CODE,Public,No,Data Steward A,Tech Owner C,Complete,2026-01-07
+Customer360,Retail Banking,EDW_CUSTOMER,CUSTOMER_CONTACT,PAYMENT_AMOUNT,Confidential,No,Data Steward A,Tech Owner D,Complete,2026-03-25
+LoanManager,Loans,EDW_LOANMANA,LOAN_ACCOUNT,TRANSACTION_ID_NUM,Internal,No,Data Steward D,Tech Owner D,Complete,2026-04-30
+TreasuryOps,Treasury,EDW_TREASURY,CASH_POSITION,SSN_LAST4,Restricted,Yes,Data Steward C,Tech Owner C,Complete,2026-03-29
+PaymentsCore,Payments,EDW_PAYMENTS,SETTLEMENT_BATCH,CLOSE_DATE,Internal,No,Data Steward A,Tech Owner B,Complete,2026-01-09
+FinanceMart,Finance,EDW_FINANCEM,GL_BALANCE,STATE_CODE_SRC,Public,No,Data Steward D,Tech Owner D,Complete,2026-03-22
+RiskView,Risk,EDW_RISKVIEW,RISK_SCORE,CLOSE_DATE_NUM,Internal,No,Data Steward C,Tech Owner C,Complete,2026-01-09
+FinanceMart,Finance,EDW_FINANCEM,GL_BALANCE,SOURCE_SYSTEM_SRC,Internal,No,Data Steward A,Tech Owner D,Complete,2026-04-10
+LoanManager,Loans,EDW_LOANMANA,LOAN_COLLATERAL,ADDRESS_LINE_1,Confidential,Yes,Data Steward A,Tech Owner A,Complete,2026-05-06
+FinanceMart,Finance,EDW_FINANCEM,COST_CENTER,OPEN_DATE_CD,Internal,No,Data Steward D,Tech Owner B,Complete,2026-05-01
+RiskView,Risk,EDW_RISKVIEW,FRAUD_ALERT,ACCOUNT_ID_NUM,Confidential,Yes,Data Steward C,Tech Owner D,Incomplete,2026-04-11
+Customer360,Retail Banking,EDW_CUSTOMER,CUSTOMER_PROFILE,CREATED_TS_NUM,Internal,No,Data Steward D,Tech Owner C,Complete,2026-03-14
+LoanManager,Loans,EDW_LOANMANA,LOAN_ACCOUNT,LAST_NAME_DT,Confidential,Yes,Data Steward E,Tech Owner D,Complete,2026-02-02
+LoanManager,Loans,EDW_LOANMANA,LOAN_ACCOUNT,EMAIL_ADDRESS_DT,Restricted,Yes,Data Steward C,Tech Owner C,Complete,2026-05-30
+Customer360,Retail Banking,EDW_CUSTOMER,CUSTOMER_ACCOUNT_LINK,LAST_NAME_NUM,Confidential,Yes,Data Steward D,Tech Owner C,Complete,2026-03-30
+BranchAnalytics,Retail Banking,EDW_BRANCHAN,BRANCH_VISIT,INTEREST_RATE,Internal,No,Data Steward E,Tech Owner C,Incomplete,2026-06-19
+RiskView,Risk,EDW_RISKVIEW,MODEL_OUTPUT,PHONE_NUMBER,Confidential,Yes,Data Steward A,Tech Owner A,Complete,2026-01-17
+BranchAnalytics,Retail Banking,EDW_BRANCHAN,BRANCH_KPI,ZIP_CODE_CD,Internal,No,Data Steward A,Tech Owner C,Complete,2026-01-06
+BranchAnalytics,Retail Banking,EDW_BRANCHAN,BRANCH_VISIT,PRODUCT_CODE,Internal,No,Data Steward D,Tech Owner B,Complete,2026-04-19
+LoanManager,Loans,EDW_LOANMANA,LOAN_ACCOUNT,OPEN_DATE,Internal,No,Data Steward D,Tech Owner A,Complete,2026-05-01
+RiskView,Risk,EDW_RISKVIEW,MODEL_OUTPUT,STATE_CODE_NUM,Public,No,Data Steward A,Tech Owner C,Complete,2026-04-10
+LoanManager,Loans,EDW_LOANMANA,LOAN_COLLATERAL,UPDATED_TS_NUM,Internal,No,Data Steward B,Tech Owner C,Complete,2026-01-26
+TreasuryOps,Treasury,EDW_TREASURY,CASH_POSITION,SSN_LAST4_DT,Restricted,Yes,Data Steward B,Tech Owner B,Complete,2026-05-09
+Customer360,Retail Banking,EDW_CUSTOMER,CUSTOMER_CONTACT,PAYMENT_AMOUNT_CD,Confidential,No,Data Steward C,Tech Owner D,Complete,2026-06-07
+LoanManager,Loans,EDW_LOANMANA,LOAN_COLLATERAL,TRANSACTION_ID,Internal,No,Data Steward C,Tech Owner D,Complete,2026-06-12
+PaymentsCore,Payments,EDW_PAYMENTS,MERCHANT_PROFILE,INTEREST_RATE,Internal,No,Data Steward B,Tech Owner B,Complete,2026-05-18
+RiskView,Risk,EDW_RISKVIEW,RISK_SCORE,BUSINESS_UNIT_CD,Internal,No,Data Steward E,Tech Owner B,Complete,2026-02-27
+PaymentsCore,Payments,EDW_PAYMENTS,SETTLEMENT_BATCH,ACCOUNT_ID_DT,Confidential,No,Data Steward A,Tech Owner B,Complete,2026-05-29
+LoanManager,Loans,EDW_LOANMANA,LOAN_ACCOUNT,CITY_NUM,Internal,No,Data Steward B,Tech Owner C,Complete,2026-05-16
+FinanceMart,Finance,EDW_FINANCEM,GL_BALANCE,PHONE_NUMBER,Confidential,Yes,Data Steward E,Tech Owner C,Complete,2026-01-20
+FinanceMart,Finance,EDW_FINANCEM,REVENUE_SUMMARY,PAYMENT_AMOUNT,Confidential,No,Data Steward E,Tech Owner B,Complete,2026-03-18
+LoanManager,Loans,EDW_LOANMANA,LOAN_ACCOUNT,CREATED_TS_CD,Internal,No,Data Steward E,Tech Owner C,Complete,2026-04-17
+Customer360,Retail Banking,EDW_CUSTOMER,CUSTOMER_PROFILE,TRANSACTION_ID,Internal,No,Data Steward E,Tech Owner C,Complete,2026-06-21
+TreasuryOps,Treasury,EDW_TREASURY,LIQUIDITY_REPORT,COUNTRY_CODE_CD,Public,No,Data Steward A,Tech Owner D,Complete,2026-06-10
+FinanceMart,Finance,EDW_FINANCEM,REVENUE_SUMMARY,ADDRESS_LINE_1_SRC,Confidential,Yes,Data Steward B,Tech Owner D,Complete,2026-02-24
+BranchAnalytics,Retail Banking,EDW_BRANCHAN,BRANCH_VISIT,UPDATED_TS,Internal,No,Data Steward B,Tech Owner D,Complete,2026-03-10
+LoanManager,Loans,EDW_LOANMANA,LOAN_PAYMENT,UPDATED_TS,Internal,No,Data Steward C,Tech Owner D,Complete,2026-04-22
+RiskView,Risk,EDW_RISKVIEW,MODEL_OUTPUT,PAYMENT_AMOUNT,Confidential,No,Data Steward C,Tech Owner C,Complete,2026-05-14
+CardHub,Cards,EDW_CARDHUB,CARD_TRANSACTION,OPEN_DATE,Internal,No,Data Steward B,Tech Owner A,Complete,2026-03-18
+FinanceMart,Finance,EDW_FINANCEM,COST_CENTER,PRODUCT_CODE_SRC,Internal,No,Data Steward B,Tech Owner B,Complete,2026-01-17
+RiskView,Risk,EDW_RISKVIEW,RISK_SCORE,BUSINESS_UNIT,Internal,No,Data Steward D,Tech Owner D,Complete,2026-03-15
+FinanceMart,Finance,EDW_FINANCEM,COST_CENTER,CUSTOMER_ID,Confidential,Yes,Data Steward D,Tech Owner D,Complete,2026-03-02
+Customer360,Retail Banking,EDW_CUSTOMER,CUSTOMER_CONTACT,CLOSE_DATE_CD,Internal,No,Data Steward D,Tech Owner C,Incomplete,2026-01-08
+Customer360,Retail Banking,EDW_CUSTOMER,CUSTOMER_PROFILE,COUNTRY_CODE,Public,No,Data Steward C,Tech Owner C,Complete,2026-04-22
+TreasuryOps,Treasury,EDW_TREASURY,FX_RATE,PAYMENT_AMOUNT,Confidential,No,Data Steward D,Tech Owner D,Complete,2026-03-11
+CardHub,Cards,EDW_CARDHUB,CARD_ACCOUNT,FIRST_NAME_SRC,Confidential,Yes,Data Steward C,Tech Owner C,Complete,2026-06-14
+RiskView,Risk,EDW_RISKVIEW,RISK_SCORE,SSN_LAST4_CD,Public,Yes,Data Steward E,Tech Owner D,Complete,2026-01-06
+Customer360,Retail Banking,EDW_CUSTOMER,CUSTOMER_PROFILE,ACCOUNT_ID,Confidential,Yes,Data Steward C,Tech Owner D,Complete,2026-01-17
+LoanManager,Loans,EDW_LOANMANA,LOAN_PAYMENT,PRODUCT_CODE,Internal,No,Data Steward B,Tech Owner D,Complete,2026-06-21
+FinanceMart,Finance,EDW_FINANCEM,REVENUE_SUMMARY,CITY_CD,Internal,No,Data Steward E,Tech Owner D,Incomplete,2026-02-05
+FinanceMart,Finance,EDW_FINANCEM,REVENUE_SUMMARY,UPDATED_TS_NUM,Internal,No,Data Steward A,Tech Owner D,Incomplete,2026-05-15
+TreasuryOps,Treasury,EDW_TREASURY,LIQUIDITY_REPORT,ACCOUNT_ID_CD,Confidential,Yes,Data Steward D,Tech Owner B,Complete,2026-03-22
+PaymentsCore,Payments,EDW_PAYMENTS,PAYMENT_TRANSACTION,CREATED_TS,Internal,No,Data Steward A,Tech Owner A,Complete,2026-03-02
+Customer360,Retail Banking,EDW_CUSTOMER,CUSTOMER_CONTACT,CITY_SRC,Internal,No,Data Steward B,Tech Owner B,Complete,2026-02-14
+PaymentsCore,Payments,EDW_PAYMENTS,SETTLEMENT_BATCH,BUSINESS_UNIT_CD,Internal,No,Data Steward D,Tech Owner A,Complete,2026-01-15
+TreasuryOps,Treasury,EDW_TREASURY,LIQUIDITY_REPORT,CITY_NUM,Internal,No,Data Steward D,Tech Owner D,Complete,2026-01-29
+LoanManager,Loans,EDW_LOANMANA,LOAN_PAYMENT,PAYMENT_AMOUNT,Confidential,No,Data Steward E,Tech Owner C,Complete,2026-03-05
+FinanceMart,Finance,EDW_FINANCEM,REVENUE_SUMMARY,CLOSE_DATE,Internal,No,Data Steward B,Tech Owner C,Complete,2026-04-05
+FinanceMart,Finance,EDW_FINANCEM,GL_BALANCE,ADDRESS_LINE_1_DT,Restricted,Yes,Data Steward C,Tech Owner B,Complete,2026-06-05
+RiskView,Risk,EDW_RISKVIEW,FRAUD_ALERT,STATE_CODE_CD,Public,No,Data Steward C,Tech Owner C,Complete,2026-05-22
+PaymentsCore,Payments,EDW_PAYMENTS,MERCHANT_PROFILE,STATE_CODE_DT,Public,No,Data Steward B,Tech Owner C,Complete,2026-04-03
+FinanceMart,Finance,EDW_FINANCEM,REVENUE_SUMMARY,TRANSACTION_ID,Internal,No,Data Steward D,Tech Owner C,Complete,2026-03-02
+TreasuryOps,Treasury,EDW_TREASURY,CASH_POSITION,ACCOUNT_ID_NUM,Confidential,Yes,Data Steward E,Tech Owner B,Complete,2026-03-02
+TreasuryOps,Treasury,EDW_TREASURY,CASH_POSITION,FIRST_NAME_SRC,Confidential,Yes,Data Steward C,Tech Owner D,Complete,2026-06-11
+LoanManager,Loans,EDW_LOANMANA,LOAN_ACCOUNT,PAYMENT_AMOUNT,Confidential,No,Data Steward D,Tech Owner D,Incomplete,2026-01-09
+Customer360,Retail Banking,EDW_CUSTOMER,CUSTOMER_PROFILE,STATUS_CODE_CD,Internal,No,Data Steward B,Tech Owner A,Complete,2026-04-16
+PaymentsCore,Payments,EDW_PAYMENTS,PAYMENT_TRANSACTION,ACCOUNT_ID_DT,Confidential,Yes,Data Steward D,Tech Owner D,Complete,2026-01-26
+FinanceMart,Finance,EDW_FINANCEM,GL_BALANCE,CUSTOMER_ID,Confidential,Yes,Data Steward E,Tech Owner A,Complete,2026-01-17
+FinanceMart,Finance,EDW_FINANCEM,COST_CENTER,STATUS_CODE_CD,Internal,No,Data Steward E,Tech Owner D,Complete,2026-05-21
+CardHub,Cards,EDW_CARDHUB,CARD_TRANSACTION,DATE_OF_BIRTH_NUM,Restricted,Yes,Data Steward D,Tech Owner C,Complete,2026-01-14
+FinanceMart,Finance,EDW_FINANCEM,REVENUE_SUMMARY,CREATED_TS_DT,Internal,No,Data Steward E,Tech Owner B,Complete,2026-06-14
+CardHub,Cards,EDW_CARDHUB,CARD_TRANSACTION,CREATED_TS,Internal,Yes,Data Steward B,Tech Owner B,Complete,2026-01-22
+RiskView,Risk,EDW_RISKVIEW,RISK_SCORE,CUSTOMER_ID,Confidential,Yes,Data Steward D,Tech Owner B,Complete,2026-06-16
+FinanceMart,Finance,EDW_FINANCEM,COST_CENTER,ADDRESS_LINE_1_CD,Confidential,Yes,Data Steward E,Tech Owner A,Complete,2026-03-23
+RiskView,Risk,EDW_RISKVIEW,MODEL_OUTPUT,EMAIL_ADDRESS,Confidential,Yes,Data Steward A,Tech Owner D,Complete,2026-02-14
+LoanManager,Loans,EDW_LOANMANA,LOAN_PAYMENT,CREATED_TS_CD,Internal,Yes,Data Steward C,Tech Owner A,Complete,2026-02-20
+FinanceMart,Finance,EDW_FINANCEM,COST_CENTER,PRODUCT_CODE,Internal,No,Data Steward B,Tech Owner B,Complete,2026-04-07
+LoanManager,Loans,EDW_LOANMANA,LOAN_PAYMENT,SOURCE_SYSTEM_CD,Internal,No,Data Steward C,Tech Owner D,Complete,2026-01-06
+BranchAnalytics,Retail Banking,EDW_BRANCHAN,BRANCH_KPI,CREATED_TS_DT,Internal,No,Data Steward B,Tech Owner B,Complete,2026-02-28
+CardHub,Cards,EDW_CARDHUB,CARD_LIMIT,OPEN_DATE_CD,Restricted,No,Data Steward C,Tech Owner A,Complete,2026-02-13
+CardHub,Cards,EDW_CARDHUB,CARD_ACCOUNT,PAYMENT_AMOUNT_CD,Confidential,No,Data Steward A,Tech Owner B,Complete,2026-04-05
+RiskView,Risk,EDW_RISKVIEW,MODEL_OUTPUT,OPEN_DATE,Internal,No,Data Steward B,Tech Owner D,Complete,2026-04-27
+BranchAnalytics,Retail Banking,EDW_BRANCHAN,BRANCH_VISIT,OPEN_DATE,Internal,No,Data Steward E,Tech Owner B,Complete,2026-02-22
+Customer360,Retail Banking,EDW_CUSTOMER,CUSTOMER_ACCOUNT_LINK,OPEN_DATE_NUM,Internal,No,Data Steward C,Tech Owner A,Complete,2026-02-03
+FinanceMart,Finance,EDW_FINANCEM,GL_BALANCE,SOURCE_SYSTEM,Internal,No,Data Steward E,Tech Owner A,Complete,2026-03-14
+Customer360,Retail Banking,EDW_CUSTOMER,CUSTOMER_PROFILE,CLOSE_DATE,Internal,No,Data Steward C,Tech Owner D,Complete,2026-04-15
+LoanManager,Loans,EDW_LOANMANA,LOAN_COLLATERAL,SOURCE_SYSTEM_NUM,Internal,No,Data Steward D,Tech Owner C,Incomplete,2026-03-09
+BranchAnalytics,Retail Banking,EDW_BRANCHAN,TELLER_ACTIVITY,ZIP_CODE,Internal,No,Data Steward E,Tech Owner B,Complete,2026-06-25
+Customer360,Retail Banking,EDW_CUSTOMER,CUSTOMER_PROFILE,ADDRESS_LINE_1_SRC,Confidential,Yes,Data Steward E,Tech Owner D,Complete,2026-04-12
+PaymentsCore,Payments,EDW_PAYMENTS,PAYMENT_TRANSACTION,EMAIL_ADDRESS_SRC,Confidential,Yes,Data Steward C,Tech Owner B,Complete,2026-04-19
+TreasuryOps,Treasury,EDW_TREASURY,LIQUIDITY_REPORT,BUSINESS_UNIT,Confidential,No,Data Steward A,Tech Owner D,Complete,2026-05-23
+CardHub,Cards,EDW_CARDHUB,CARD_LIMIT,ACCOUNT_ID_SRC,Confidential,Yes,Data Steward E,Tech Owner A,Complete,2026-06-21
+Customer360,Retail Banking,EDW_CUSTOMER,CUSTOMER_CONTACT,OPEN_DATE,Restricted,No,Data Steward E,Tech Owner B,Complete,2026-01-12
+RiskView,Risk,EDW_RISKVIEW,MODEL_OUTPUT,PRODUCT_CODE_DT,Internal,No,Data Steward C,Tech Owner B,Complete,2026-02-03
+LoanManager,Loans,EDW_LOANMANA,LOAN_COLLATERAL,BALANCE_AMOUNT,Confidential,No,Data Steward D,Tech Owner C,Incomplete,2026-02-15
+Customer360,Retail Banking,EDW_CUSTOMER,CUSTOMER_ACCOUNT_LINK,INTEREST_RATE_NUM,Internal,Yes,Data Steward B,Tech Owner D,Complete,2026-02-03
+PaymentsCore,Payments,EDW_PAYMENTS,SETTLEMENT_BATCH,CITY_NUM,Internal,No,Data Steward D,Tech Owner D,Complete,2026-01-12
+FinanceMart,Finance,EDW_FINANCEM,COST_CENTER,DATE_OF_BIRTH_DT,Restricted,Yes,Data Steward E,Tech Owner D,Complete,2026-03-13
+TreasuryOps,Treasury,EDW_TREASURY,FX_RATE,UPDATED_TS,Internal,No,Data Steward D,Tech Owner A,Complete,2026-03-09
+PaymentsCore,Payments,EDW_PAYMENTS,MERCHANT_PROFILE,PAYMENT_AMOUNT_CD,Confidential,No,Data Steward B,Tech Owner D,Complete,2026-04-22
+FinanceMart,Finance,EDW_FINANCEM,GL_BALANCE,CITY_NUM,Internal,No,Data Steward A,Tech Owner D,Complete,2026-05-06
+CardHub,Cards,EDW_CARDHUB,CARD_LIMIT,SOURCE_SYSTEM_DT,Internal,No,Data Steward B,Tech Owner A,Complete,2026-06-18
+PaymentsCore,Payments,EDW_PAYMENTS,SETTLEMENT_BATCH,PRODUCT_CODE_CD,Public,No,Data Steward A,Tech Owner A,Complete,2026-02-08
+RiskView,Risk,EDW_RISKVIEW,FRAUD_ALERT,CUSTOMER_ID,Confidential,Yes,Data Steward B,Tech Owner A,Complete,2026-04-30
+TreasuryOps,Treasury,EDW_TREASURY,LIQUIDITY_REPORT,PRODUCT_CODE_NUM,Internal,No,Data Steward B,Tech Owner D,Complete,2026-04-02
+RiskView,Risk,EDW_RISKVIEW,FRAUD_ALERT,ZIP_CODE_SRC,Internal,Yes,Data Steward E,Tech Owner C,Complete,2026-05-07
+FinanceMart,Finance,EDW_FINANCEM,COST_CENTER,BALANCE_AMOUNT_SRC,Confidential,No,Data Steward D,Tech Owner B,Complete,2026-03-14
+PaymentsCore,Payments,EDW_PAYMENTS,PAYMENT_TRANSACTION,INTEREST_RATE_DT,Internal,No,Data Steward B,Tech Owner A,Complete,2026-05-30
+FinanceMart,Finance,EDW_FINANCEM,REVENUE_SUMMARY,INTEREST_RATE_CD,Internal,No,Data Steward D,Tech Owner C,Complete,2026-05-08
+RiskView,Risk,EDW_RISKVIEW,FRAUD_ALERT,BUSINESS_UNIT_DT,Internal,No,Data Steward D,Tech Owner D,Complete,2026-01-28
+Customer360,Retail Banking,EDW_CUSTOMER,CUSTOMER_ACCOUNT_LINK,ACCOUNT_ID_DT,Confidential,Yes,Data Steward A,Tech Owner A,Complete,2026-04-27
+PaymentsCore,Payments,EDW_PAYMENTS,PAYMENT_TRANSACTION,STATUS_CODE,Internal,No,Data Steward A,Tech Owner B,Complete,2026-01-02
+Customer360,Retail Banking,EDW_CUSTOMER,CUSTOMER_ACCOUNT_LINK,STATUS_CODE_NUM,Internal,No,Data Steward E,Tech Owner D,Complete,2026-04-26
+BranchAnalytics,Retail Banking,EDW_BRANCHAN,BRANCH_VISIT,CUSTOMER_ID_CD,Confidential,No,Data Steward E,Tech Owner D,Complete,2026-05-26
+FinanceMart,Finance,EDW_FINANCEM,GL_BALANCE,BALANCE_AMOUNT_DT,Confidential,No,Data Steward D,Tech Owner B,Complete,2026-01-15
+CardHub,Cards,EDW_CARDHUB,CARD_LIMIT,LAST_NAME,Confidential,No,Data Steward B,Tech Owner C,Complete,2026-04-08
+FinanceMart,Finance,EDW_FINANCEM,COST_CENTER,TRANSACTION_ID,Internal,Yes,Data Steward D,Tech Owner D,Complete,2026-04-13
+TreasuryOps,Treasury,EDW_TREASURY,LIQUIDITY_REPORT,EMAIL_ADDRESS,Confidential,Yes,Data Steward A,Tech Owner A,Complete,2026-03-14
+PaymentsCore,Payments,EDW_PAYMENTS,MERCHANT_PROFILE,ZIP_CODE_CD,Internal,No,Data Steward D,Tech Owner A,Complete,2026-03-18
+Customer360,Retail Banking,EDW_CUSTOMER,CUSTOMER_ACCOUNT_LINK,DATE_OF_BIRTH,Restricted,Yes,Data Steward D,Tech Owner D,Complete,2026-03-21
+RiskView,Risk,EDW_RISKVIEW,MODEL_OUTPUT,FIRST_NAME_CD,Confidential,No,Data Steward A,Tech Owner B,Complete,2026-06-20
+BranchAnalytics,Retail Banking,EDW_BRANCHAN,TELLER_ACTIVITY,ACCOUNT_ID,Confidential,Yes,Data Steward C,Tech Owner A,Complete,2026-04-25
+LoanManager,Loans,EDW_LOANMANA,LOAN_COLLATERAL,ZIP_CODE,Internal,No,Data Steward C,Tech Owner B,Complete,2026-06-03
+TreasuryOps,Treasury,EDW_TREASURY,LIQUIDITY_REPORT,ZIP_CODE_NUM,Internal,No,Data Steward E,Tech Owner D,Complete,2026-06-07
+LoanManager,Loans,EDW_LOANMANA,LOAN_COLLATERAL,SOURCE_SYSTEM,Internal,No,Data Steward E,Tech Owner C,Complete,2026-04-29
+CardHub,Cards,EDW_CARDHUB,CARD_TRANSACTION,EMAIL_ADDRESS_DT,Confidential,Yes,Data Steward A,Tech Owner C,Complete,2026-02-09
+PaymentsCore,Payments,EDW_PAYMENTS,MERCHANT_PROFILE,CUSTOMER_ID_NUM,Confidential,No,Data Steward C,Tech Owner D,Complete,2026-05-15
+TreasuryOps,Treasury,EDW_TREASURY,FX_RATE,PAYMENT_AMOUNT_SRC,Confidential,No,Data Steward D,Tech Owner B,Complete,2026-05-03
+PaymentsCore,Payments,EDW_PAYMENTS,PAYMENT_TRANSACTION,BUSINESS_UNIT_CD,Internal,No,Data Steward C,Tech Owner B,Complete,2026-03-18
+CardHub,Cards,EDW_CARDHUB,CARD_TRANSACTION,LAST_NAME_SRC,Public,Yes,Data Steward B,Tech Owner D,Complete,2026-05-26
+RiskView,Risk,EDW_RISKVIEW,RISK_SCORE,TRANSACTION_ID,Internal,Yes,Data Steward C,Tech Owner D,Complete,2026-04-16
+FinanceMart,Finance,EDW_FINANCEM,GL_BALANCE,LAST_NAME,Confidential,Yes,Data Steward B,Tech Owner D,Complete,2026-01-21
+PaymentsCore,Payments,EDW_PAYMENTS,PAYMENT_TRANSACTION,CUSTOMER_ID,Confidential,Yes,Data Steward C,Tech Owner A,Complete,2026-06-19
+PaymentsCore,Payments,EDW_PAYMENTS,MERCHANT_PROFILE,BUSINESS_UNIT,Internal,Yes,Data Steward E,Tech Owner B,Complete,2026-01-12
+LoanManager,Loans,EDW_LOANMANA,LOAN_PAYMENT,ADDRESS_LINE_1,Confidential,Yes,Data Steward D,Tech Owner B,Complete,2026-04-27
+LoanManager,Loans,EDW_LOANMANA,LOAN_PAYMENT,PHONE_NUMBER_SRC,Confidential,Yes,Data Steward C,Tech Owner D,Complete,2026-03-09
+RiskView,Risk,EDW_RISKVIEW,FRAUD_ALERT,EMAIL_ADDRESS_NUM,Confidential,Yes,Data Steward D,Tech Owner B,Complete,2026-01-21
+PaymentsCore,Payments,EDW_PAYMENTS,MERCHANT_PROFILE,PRODUCT_CODE_SRC,Internal,Yes,Data Steward C,Tech Owner D,Complete,2026-06-22
+PaymentsCore,Payments,EDW_PAYMENTS,SETTLEMENT_BATCH,PRODUCT_CODE,Internal,No,Data Steward C,Tech Owner C,Complete,2026-02-13
+PaymentsCore,Payments,EDW_PAYMENTS,MERCHANT_PROFILE,ADDRESS_LINE_1_NUM,Confidential,Yes,Data Steward D,Tech Owner B,Complete,2026-06-18
+PaymentsCore,Payments,EDW_PAYMENTS,MERCHANT_PROFILE,ZIP_CODE,Internal,No,Data Steward A,Tech Owner B,Complete,2026-03-19
+TreasuryOps,Treasury,EDW_TREASURY,FX_RATE,ADDRESS_LINE_1_DT,Confidential,Yes,Data Steward A,Tech Owner D,Complete,2026-06-22
+BranchAnalytics,Retail Banking,EDW_BRANCHAN,BRANCH_VISIT,STATUS_CODE,Internal,Yes,Data Steward B,Tech Owner C,Complete,2026-03-19
+LoanManager,Loans,EDW_LOANMANA,LOAN_COLLATERAL,COUNTRY_CODE_DT,Public,No,Data Steward D,Tech Owner A,Complete,2026-01-05
+RiskView,Risk,EDW_RISKVIEW,MODEL_OUTPUT,PAYMENT_AMOUNT_CD,Confidential,No,Data Steward A,Tech Owner A,Complete,2026-02-23
+RiskView,Risk,EDW_RISKVIEW,RISK_SCORE,STATUS_CODE_CD,Internal,No,Data Steward A,Tech Owner D,Complete,2026-04-22
+FinanceMart,Finance,EDW_FINANCEM,GL_BALANCE,BALANCE_AMOUNT_NUM,Confidential,No,Data Steward E,Tech Owner B,Complete,2026-03-19
+RiskView,Risk,EDW_RISKVIEW,FRAUD_ALERT,OPEN_DATE_DT,Internal,Yes,Data Steward E,Tech Owner B,Complete,2026-01-06
+Customer360,Retail Banking,EDW_CUSTOMER,CUSTOMER_CONTACT,FIRST_NAME,Confidential,Yes,Data Steward D,Tech Owner A,Complete,2026-05-05
+BranchAnalytics,Retail Banking,EDW_BRANCHAN,BRANCH_VISIT,BALANCE_AMOUNT_SRC,Confidential,No,Data Steward C,Tech Owner D,Complete,2026-02-21
+BranchAnalytics,Retail Banking,EDW_BRANCHAN,BRANCH_KPI,UPDATED_TS_SRC,Internal,Yes,Data Steward C,Tech Owner A,Complete,2026-01-03
+Customer360,Retail Banking,EDW_CUSTOMER,CUSTOMER_ACCOUNT_LINK,FIRST_NAME,Confidential,Yes,Data Steward C,Tech Owner A,Complete,2026-06-02
+LoanManager,Loans,EDW_LOANMANA,LOAN_COLLATERAL,EMAIL_ADDRESS_CD,Confidential,Yes,Data Steward B,Tech Owner B,Complete,2026-04-13
+PaymentsCore,Payments,EDW_PAYMENTS,MERCHANT_PROFILE,EMAIL_ADDRESS_DT,Confidential,Yes,Data Steward D,Tech Owner B,Complete,2026-06-23
+TreasuryOps,Treasury,EDW_TREASURY,FX_RATE,INTEREST_RATE_SRC,Internal,No,Data Steward D,Tech Owner A,Complete,2026-01-16
+TreasuryOps,Treasury,EDW_TREASURY,FX_RATE,BUSINESS_UNIT_NUM,Restricted,No,Data Steward A,Tech Owner A,Complete,2026-05-22
+LoanManager,Loans,EDW_LOANMANA,LOAN_PAYMENT,CITY,Internal,No,Data Steward D,Tech Owner A,Complete,2026-06-09
+BranchAnalytics,Retail Banking,EDW_BRANCHAN,BRANCH_KPI,STATUS_CODE,Confidential,No,Data Steward E,Tech Owner D,Complete,2026-04-22
+PaymentsCore,Payments,EDW_PAYMENTS,SETTLEMENT_BATCH,FIRST_NAME,Confidential,Yes,Data Steward C,Tech Owner C,Complete,2026-05-10
+LoanManager,Loans,EDW_LOANMANA,LOAN_COLLATERAL,UPDATED_TS_DT,Internal,No,Data Steward C,Tech Owner A,Complete,2026-06-18
+LoanManager,Loans,EDW_LOANMANA,LOAN_PAYMENT,FIRST_NAME,Confidential,Yes,Data Steward C,Tech Owner A,Complete,2026-04-10
+RiskView,Risk,EDW_RISKVIEW,MODEL_OUTPUT,LAST_NAME_CD,Confidential,Yes,Data Steward D,Tech Owner D,Complete,2026-04-03
+LoanManager,Loans,EDW_LOANMANA,LOAN_COLLATERAL,ZIP_CODE_SRC,Internal,No,Data Steward B,Tech Owner D,Complete,2026-03-14
+LoanManager,Loans,EDW_LOANMANA,LOAN_COLLATERAL,DATE_OF_BIRTH_SRC,Restricted,Yes,Data Steward B,Tech Owner B,Complete,2026-02-03
+RiskView,Risk,EDW_RISKVIEW,FRAUD_ALERT,PRODUCT_CODE,Internal,No,Data Steward C,Tech Owner A,Complete,2026-05-07
+LoanManager,Loans,EDW_LOANMANA,LOAN_ACCOUNT,ZIP_CODE_CD,Internal,No,Data Steward E,Tech Owner D,Complete,2026-01-05
+BranchAnalytics,Retail Banking,EDW_BRANCHAN,TELLER_ACTIVITY,UPDATED_TS_DT,Internal,No,Data Steward A,Tech Owner D,Complete,2026-02-10
+CardHub,Cards,EDW_CARDHUB,CARD_LIMIT,CUSTOMER_ID_DT,Confidential,No,Data Steward B,Tech Owner C,Complete,2026-02-28
+FinanceMart,Finance,EDW_FINANCEM,GL_BALANCE,PAYMENT_AMOUNT,Confidential,No,Data Steward B,Tech Owner D,Complete,2026-04-01
+BranchAnalytics,Retail Banking,EDW_BRANCHAN,BRANCH_KPI,BALANCE_AMOUNT,Confidential,No,Data Steward E,Tech Owner A,Complete,2026-02-08
+RiskView,Risk,EDW_RISKVIEW,MODEL_OUTPUT,BUSINESS_UNIT,Internal,No,Data Steward D,Tech Owner B,Complete,2026-01-27
+CardHub,Cards,EDW_CARDHUB,CARD_LIMIT,STATUS_CODE_DT,Internal,No,Data Steward B,Tech Owner C,Complete,2026-01-29
+BranchAnalytics,Retail Banking,EDW_BRANCHAN,TELLER_ACTIVITY,STATE_CODE_DT,Public,No,Data Steward A,Tech Owner D,Complete,2026-01-27
+TreasuryOps,Treasury,EDW_TREASURY,CASH_POSITION,SOURCE_SYSTEM_CD,Internal,No,Data Steward C,Tech Owner D,Complete,2026-02-12
+LoanManager,Loans,EDW_LOANMANA,LOAN_ACCOUNT,SSN_LAST4_DT,Restricted,Yes,Data Steward A,Tech Owner C,Complete,2026-02-10
+RiskView,Risk,EDW_RISKVIEW,MODEL_OUTPUT,ADDRESS_LINE_1,Confidential,Yes,Data Steward E,Tech Owner C,Complete,2026-05-10
+CardHub,Cards,EDW_CARDHUB,CARD_ACCOUNT,BUSINESS_UNIT_DT,Internal,No,Data Steward D,Tech Owner A,Complete,2026-04-04
+LoanManager,Loans,EDW_LOANMANA,LOAN_COLLATERAL,LAST_NAME,Confidential,Yes,Data Steward B,Tech Owner C,Complete,2026-02-21
+PaymentsCore,Payments,EDW_PAYMENTS,MERCHANT_PROFILE,LAST_NAME_CD,Confidential,Yes,Data Steward C,Tech Owner D,Incomplete,2026-01-02
+BranchAnalytics,Retail Banking,EDW_BRANCHAN,BRANCH_VISIT,STATUS_CODE_DT,Internal,No,Data Steward A,Tech Owner D,Incomplete,2026-01-22
+FinanceMart,Finance,EDW_FINANCEM,REVENUE_SUMMARY,STATE_CODE_SRC,Public,No,Data Steward D,Tech Owner C,Complete,2026-02-08
+Customer360,Retail Banking,EDW_CUSTOMER,CUSTOMER_ACCOUNT_LINK,TRANSACTION_ID_NUM,Internal,No,Data Steward E,Tech Owner C,Complete,2026-02-28
+PaymentsCore,Payments,EDW_PAYMENTS,PAYMENT_TRANSACTION,COUNTRY_CODE_DT,Public,No,Data Steward B,Tech Owner D,Complete,2026-05-13
+RiskView,Risk,EDW_RISKVIEW,FRAUD_ALERT,CITY_CD,Internal,No,Data Steward A,Tech Owner B,Complete,2026-04-24
+BranchAnalytics,Retail Banking,EDW_BRANCHAN,TELLER_ACTIVITY,CREATED_TS_DT,Internal,No,Data Steward A,Tech Owner A,Complete,2026-02-12
+LoanManager,Loans,EDW_LOANMANA,LOAN_PAYMENT,OPEN_DATE,Internal,No,Data Steward D,Tech Owner B,Complete,2026-06-19
+RiskView,Risk,EDW_RISKVIEW,FRAUD_ALERT,TRANSACTION_ID,Internal,No,Data Steward B,Tech Owner A,Complete,2026-01-15
+FinanceMart,Finance,EDW_FINANCEM,REVENUE_SUMMARY,UPDATED_TS_DT,Internal,No,Data Steward B,Tech Owner D,Complete,2026-05-14
+CardHub,Cards,EDW_CARDHUB,CARD_LIMIT,FIRST_NAME,Confidential,Yes,Data Steward B,Tech Owner D,Complete,2026-06-24
+BranchAnalytics,Retail Banking,EDW_BRANCHAN,BRANCH_VISIT,CUSTOMER_ID_NUM,Confidential,Yes,Data Steward C,Tech Owner A,Complete,2026-03-22
+PaymentsCore,Payments,EDW_PAYMENTS,PAYMENT_TRANSACTION,SOURCE_SYSTEM_DT,Internal,No,Data Steward A,Tech Owner A,Complete,2026-05-16
+RiskView,Risk,EDW_RISKVIEW,FRAUD_ALERT,LAST_NAME_SRC,Confidential,Yes,Data Steward B,Tech Owner B,Complete,2026-04-25
+Customer360,Retail Banking,EDW_CUSTOMER,CUSTOMER_ACCOUNT_LINK,STATUS_CODE,Internal,No,Data Steward D,Tech Owner C,Complete,2026-06-08
+BranchAnalytics,Retail Banking,EDW_BRANCHAN,BRANCH_VISIT,TRANSACTION_ID,Internal,No,Data Steward B,Tech Owner A,Complete,2026-06-16
+PaymentsCore,Payments,EDW_PAYMENTS,MERCHANT_PROFILE,COUNTRY_CODE,Confidential,No,Data Steward B,Tech Owner B,Complete,2026-01-22
+FinanceMart,Finance,EDW_FINANCEM,REVENUE_SUMMARY,CUSTOMER_ID_DT,Confidential,Yes,Data Steward C,Tech Owner B,Complete,2026-02-02
+TreasuryOps,Treasury,EDW_TREASURY,LIQUIDITY_REPORT,ZIP_CODE,Internal,No,Data Steward A,Tech Owner B,Complete,2026-01-24
+RiskView,Risk,EDW_RISKVIEW,RISK_SCORE,ZIP_CODE_DT,Internal,No,Data Steward A,Tech Owner D,Complete,2026-06-12
+LoanManager,Loans,EDW_LOANMANA,LOAN_PAYMENT,BUSINESS_UNIT,Internal,No,Data Steward A,Tech Owner A,Complete,2026-03-19
+PaymentsCore,Payments,EDW_PAYMENTS,SETTLEMENT_BATCH,ADDRESS_LINE_1_NUM,Confidential,Yes,Data Steward E,Tech Owner D,Complete,2026-01-16
+PaymentsCore,Payments,EDW_PAYMENTS,PAYMENT_TRANSACTION,STATUS_CODE_CD,Internal,Yes,Data Steward E,Tech Owner B,Complete,2026-04-01
+CardHub,Cards,EDW_CARDHUB,CARD_TRANSACTION,TRANSACTION_ID_CD,Internal,No,Data Steward B,Tech Owner B,Complete,2026-01-02
+RiskView,Risk,EDW_RISKVIEW,FRAUD_ALERT,INTEREST_RATE_NUM,Internal,No,Data Steward A,Tech Owner C,Complete,2026-05-29
+TreasuryOps,Treasury,EDW_TREASURY,CASH_POSITION,EMAIL_ADDRESS,Confidential,Yes,Data Steward D,Tech Owner A,Incomplete,2026-06-02
+Customer360,Retail Banking,EDW_CUSTOMER,CUSTOMER_CONTACT,CREATED_TS_NUM,Internal,No,Data Steward B,Tech Owner A,Complete,2026-05-27
+LoanManager,Loans,EDW_LOANMANA,LOAN_COLLATERAL,CUSTOMER_ID,Confidential,No,Data Steward D,Tech Owner C,Complete,2026-03-05
+FinanceMart,Finance,EDW_FINANCEM,GL_BALANCE,STATE_CODE,Public,No,Data Steward C,Tech Owner A,Complete,2026-02-07
+RiskView,Risk,EDW_RISKVIEW,FRAUD_ALERT,PHONE_NUMBER_CD,Confidential,Yes,Data Steward A,Tech Owner C,Complete,2026-01-16
+CardHub,Cards,EDW_CARDHUB,CARD_TRANSACTION,OPEN_DATE_CD,Restricted,No,Data Steward C,Tech Owner A,Complete,2026-04-25
+LoanManager,Loans,EDW_LOANMANA,LOAN_PAYMENT,DATE_OF_BIRTH,Restricted,Yes,Data Steward A,Tech Owner A,Complete,2026-04-12
+Customer360,Retail Banking,EDW_CUSTOMER,CUSTOMER_PROFILE,CUSTOMER_ID,Confidential,Yes,Data Steward A,Tech Owner D,Complete,2026-04-19
+PaymentsCore,Payments,EDW_PAYMENTS,PAYMENT_TRANSACTION,DATE_OF_BIRTH_DT,Restricted,Yes,Data Steward A,Tech Owner D,Complete,2026-05-06
+RiskView,Risk,EDW_RISKVIEW,RISK_SCORE,COUNTRY_CODE_NUM,Public,No,Data Steward C,Tech Owner C,Complete,2026-02-06
+RiskView,Risk,EDW_RISKVIEW,RISK_SCORE,BALANCE_AMOUNT_NUM,Confidential,No,Data Steward A,Tech Owner B,Complete,2026-02-03
+Customer360,Retail Banking,EDW_CUSTOMER,CUSTOMER_CONTACT,TRANSACTION_ID_SRC,Internal,No,Data Steward C,Tech Owner C,Complete,2026-01-31
+CardHub,Cards,EDW_CARDHUB,CARD_LIMIT,OPEN_DATE,Internal,No,Data Steward C,Tech Owner B,Complete,2026-02-10
+FinanceMart,Finance,EDW_FINANCEM,REVENUE_SUMMARY,PRODUCT_CODE,Internal,No,Data Steward D,Tech Owner C,Complete,2026-01-31
+BranchAnalytics,Retail Banking,EDW_BRANCHAN,BRANCH_VISIT,SOURCE_SYSTEM_CD,Internal,No,Data Steward B,Tech Owner B,Complete,2026-04-05
+PaymentsCore,Payments,EDW_PAYMENTS,PAYMENT_TRANSACTION,EMAIL_ADDRESS_CD,Confidential,Yes,Data Steward C,Tech Owner A,Complete,2026-01-31
+Customer360,Retail Banking,EDW_CUSTOMER,CUSTOMER_ACCOUNT_LINK,ZIP_CODE_DT,Public,No,Data Steward C,Tech Owner A,Complete,2026-05-05
+TreasuryOps,Treasury,EDW_TREASURY,FX_RATE,CLOSE_DATE,Internal,No,Data Steward B,Tech Owner C,Complete,2026-03-20
+Customer360,Retail Banking,EDW_CUSTOMER,CUSTOMER_PROFILE,BALANCE_AMOUNT_SRC,Restricted,No,Data Steward C,Tech Owner D,Complete,2026-05-06
+CardHub,Cards,EDW_CARDHUB,CARD_LIMIT,LAST_NAME_NUM,Confidential,Yes,Data Steward D,Tech Owner A,Complete,2026-04-17
+Customer360,Retail Banking,EDW_CUSTOMER,CUSTOMER_CONTACT,CREATED_TS,Internal,No,Data Steward B,Tech Owner C,Complete,2026-03-28
+RiskView,Risk,EDW_RISKVIEW,FRAUD_ALERT,UPDATED_TS_DT,Internal,No,Data Steward B,Tech Owner C,Complete,2026-06-05
+LoanManager,Loans,EDW_LOANMANA,LOAN_COLLATERAL,FIRST_NAME,Confidential,Yes,Data Steward A,Tech Owner B,Complete,2026-02-08
+BranchAnalytics,Retail Banking,EDW_BRANCHAN,TELLER_ACTIVITY,FIRST_NAME,Confidential,Yes,Data Steward B,Tech Owner C,Complete,2026-06-09
+Customer360,Retail Banking,EDW_CUSTOMER,CUSTOMER_PROFILE,CITY,Internal,No,Data Steward A,Tech Owner B,Complete,2026-04-12
+PaymentsCore,Payments,EDW_PAYMENTS,SETTLEMENT_BATCH,ACCOUNT_ID_NUM,Confidential,Yes,Data Steward C,Tech Owner C,Complete,2026-04-24
+Customer360,Retail Banking,EDW_CUSTOMER,CUSTOMER_CONTACT,OPEN_DATE_CD,Internal,No,Data Steward E,Tech Owner B,Complete,2026-02-12
+BranchAnalytics,Retail Banking,EDW_BRANCHAN,BRANCH_VISIT,LAST_NAME,Confidential,Yes,Data Steward A,Tech Owner A,Complete,2026-03-21
+LoanManager,Loans,EDW_LOANMANA,LOAN_ACCOUNT,ZIP_CODE,Internal,No,Data Steward A,Tech Owner D,Complete,2026-01-22
+Customer360,Retail Banking,EDW_CUSTOMER,CUSTOMER_PROFILE,SSN_LAST4_NUM,Restricted,Yes,Data Steward D,Tech Owner B,Complete,2026-05-02
+RiskView,Risk,EDW_RISKVIEW,RISK_SCORE,ACCOUNT_ID_SRC,Confidential,Yes,Data Steward B,Tech Owner B,Complete,2026-05-17
+PaymentsCore,Payments,EDW_PAYMENTS,SETTLEMENT_BATCH,ZIP_CODE_SRC,Internal,No,Data Steward A,Tech Owner D,Complete,2026-05-29
+PaymentsCore,Payments,EDW_PAYMENTS,PAYMENT_TRANSACTION,STATE_CODE,Public,No,Data Steward B,Tech Owner C,Complete,2026-04-13
+BranchAnalytics,Retail Banking,EDW_BRANCHAN,BRANCH_VISIT,ACCOUNT_ID_CD,Confidential,Yes,Data Steward E,Tech Owner B,Complete,2026-01-06
+FinanceMart,Finance,EDW_FINANCEM,COST_CENTER,COUNTRY_CODE_CD,Public,No,Data Steward D,Tech Owner A,Complete,2026-05-16
+FinanceMart,Finance,EDW_FINANCEM,COST_CENTER,LAST_NAME_SRC,Confidential,Yes,Data Steward B,Tech Owner B,Complete,2026-01-26
+Customer360,Retail Banking,EDW_CUSTOMER,CUSTOMER_CONTACT,UPDATED_TS,Internal,No,Data Steward D,Tech Owner D,Complete,2026-03-07
+RiskView,Risk,EDW_RISKVIEW,FRAUD_ALERT,PHONE_NUMBER,Confidential,Yes,Data Steward A,Tech Owner C,Complete,2026-04-15
+TreasuryOps,Treasury,EDW_TREASURY,CASH_POSITION,BUSINESS_UNIT,Internal,No,Data Steward A,Tech Owner C,Complete,2026-03-25
+CardHub,Cards,EDW_CARDHUB,CARD_ACCOUNT,CREATED_TS,Internal,No,Data Steward C,Tech Owner A,Complete,2026-02-06
+PaymentsCore,Payments,EDW_PAYMENTS,MERCHANT_PROFILE,DATE_OF_BIRTH,Public,Yes,Data Steward B,Tech Owner C,Complete,2026-01-31
+Customer360,Retail Banking,EDW_CUSTOMER,CUSTOMER_ACCOUNT_LINK,UPDATED_TS,Internal,No,Data Steward E,Tech Owner B,Complete,2026-04-09
+LoanManager,Loans,EDW_LOANMANA,LOAN_PAYMENT,ACCOUNT_ID,Confidential,Yes,Data Steward A,Tech Owner B,Complete,2026-04-29
+TreasuryOps,Treasury,EDW_TREASURY,CASH_POSITION,BALANCE_AMOUNT_SRC,Confidential,No,Data Steward A,Tech Owner C,Complete,2026-04-15
+TreasuryOps,Treasury,EDW_TREASURY,CASH_POSITION,CITY_NUM,Internal,No,Data Steward B,Tech Owner C,Complete,2026-05-31
+Customer360,Retail Banking,EDW_CUSTOMER,CUSTOMER_PROFILE,INTEREST_RATE_NUM,Internal,No,Data Steward B,Tech Owner A,Complete,2026-06-16
+RiskView,Risk,EDW_RISKVIEW,RISK_SCORE,STATE_CODE_NUM,Public,Yes,Data Steward D,Tech Owner A,Complete,2026-04-25
+FinanceMart,Finance,EDW_FINANCEM,COST_CENTER,LAST_NAME,Confidential,Yes,Data Steward D,Tech Owner D,Complete,2026-02-13
+RiskView,Risk,EDW_RISKVIEW,RISK_SCORE,UPDATED_TS_CD,Internal,No,Data Steward E,Tech Owner C,Complete,2026-05-23
+FinanceMart,Finance,EDW_FINANCEM,GL_BALANCE,DATE_OF_BIRTH_NUM,Restricted,Yes,Data Steward A,Tech Owner D,Complete,2026-06-08
+CardHub,Cards,EDW_CARDHUB,CARD_TRANSACTION,LAST_NAME,Confidential,Yes,Data Steward A,Tech Owner B,Complete,2026-06-24
+TreasuryOps,Treasury,EDW_TREASURY,CASH_POSITION,UPDATED_TS,Internal,No,Data Steward C,Tech Owner C,Complete,2026-02-24
+Customer360,Retail Banking,EDW_CUSTOMER,CUSTOMER_PROFILE,ZIP_CODE_SRC,Internal,No,Data Steward D,Tech Owner B,Complete,2026-02-11
+BranchAnalytics,Retail Banking,EDW_BRANCHAN,TELLER_ACTIVITY,STATE_CODE_CD,Public,No,Data Steward D,Tech Owner A,Complete,2026-01-23
+TreasuryOps,Treasury,EDW_TREASURY,CASH_POSITION,OPEN_DATE,Internal,No,Data Steward A,Tech Owner C,Complete,2026-05-23
+RiskView,Risk,EDW_RISKVIEW,FRAUD_ALERT,FIRST_NAME,Confidential,Yes,Data Steward C,Tech Owner B,Complete,2026-05-10
+LoanManager,Loans,EDW_LOANMANA,LOAN_COLLATERAL,TRANSACTION_ID_CD,Internal,No,Data Steward A,Tech Owner C,Complete,2026-03-29
+BranchAnalytics,Retail Banking,EDW_BRANCHAN,BRANCH_KPI,CUSTOMER_ID_SRC,Confidential,Yes,Data Steward B,Tech Owner D,Complete,2026-03-04
+TreasuryOps,Treasury,EDW_TREASURY,FX_RATE,UPDATED_TS_CD,Internal,No,Data Steward E,Tech Owner C,Complete,2026-04-28
+BranchAnalytics,Retail Banking,EDW_BRANCHAN,BRANCH_VISIT,ACCOUNT_ID,Confidential,Yes,Data Steward A,Tech Owner D,Complete,2026-01-02
+FinanceMart,Finance,EDW_FINANCEM,REVENUE_SUMMARY,STATUS_CODE_CD,Internal,No,Data Steward D,Tech Owner B,Complete,2026-05-23
+Customer360,Retail Banking,EDW_CUSTOMER,CUSTOMER_PROFILE,DATE_OF_BIRTH_NUM,Restricted,Yes,Data Steward C,Tech Owner A,Complete,2026-04-11
+CardHub,Cards,EDW_CARDHUB,CARD_TRANSACTION,ZIP_CODE_SRC,Restricted,No,Data Steward D,Tech Owner C,Complete,2026-05-18
+PaymentsCore,Payments,EDW_PAYMENTS,PAYMENT_TRANSACTION,STATE_CODE_SRC,Public,No,Data Steward C,Tech Owner B,Complete,2026-04-07
+Customer360,Retail Banking,EDW_CUSTOMER,CUSTOMER_CONTACT,OPEN_DATE_SRC,Internal,Yes,Data Steward C,Tech Owner B,Complete,2026-01-03
+Customer360,Retail Banking,EDW_CUSTOMER,CUSTOMER_PROFILE,BUSINESS_UNIT_NUM,Internal,No,Data Steward A,Tech Owner A,Complete,2026-02-26
+RiskView,Risk,EDW_RISKVIEW,MODEL_OUTPUT,COUNTRY_CODE_DT,Public,No,Data Steward E,Tech Owner D,Complete,2026-04-02
+Customer360,Retail Banking,EDW_CUSTOMER,CUSTOMER_CONTACT,BALANCE_AMOUNT_SRC,Confidential,No,Data Steward E,Tech Owner D,Complete,2026-05-07
+TreasuryOps,Treasury,EDW_TREASURY,FX_RATE,ADDRESS_LINE_1,Confidential,Yes,Data Steward D,Tech Owner B,Complete,2026-06-05
+LoanManager,Loans,EDW_LOANMANA,LOAN_ACCOUNT,BUSINESS_UNIT_SRC,Internal,No,Data Steward C,Tech Owner B,Complete,2026-05-07
+TreasuryOps,Treasury,EDW_TREASURY,CASH_POSITION,ACCOUNT_ID_SRC,Confidential,No,Data Steward A,Tech Owner D,Complete,2026-01-17
+CardHub,Cards,EDW_CARDHUB,CARD_ACCOUNT,ZIP_CODE_CD,Internal,No,Data Steward D,Tech Owner D,Complete,2026-03-12
+BranchAnalytics,Retail Banking,EDW_BRANCHAN,BRANCH_VISIT,UPDATED_TS_CD,Internal,No,Data Steward E,Tech Owner D,Complete,2026-03-06
+CardHub,Cards,EDW_CARDHUB,CARD_TRANSACTION,PAYMENT_AMOUNT,Confidential,No,Data Steward D,Tech Owner C,Complete,2026-01-14
+BranchAnalytics,Retail Banking,EDW_BRANCHAN,BRANCH_KPI,PRODUCT_CODE_SRC,Internal,No,Data Steward A,Tech Owner B,Incomplete,2026-04-15
+PaymentsCore,Payments,EDW_PAYMENTS,PAYMENT_TRANSACTION,PRODUCT_CODE_CD,Internal,No,Data Steward D,Tech Owner A,Complete,2026-01-12
+BranchAnalytics,Retail Banking,EDW_BRANCHAN,TELLER_ACTIVITY,STATE_CODE,Public,No,Data Steward C,Tech Owner C,Complete,2026-04-18
+FinanceMart,Finance,EDW_FINANCEM,REVENUE_SUMMARY,OPEN_DATE_DT,Internal,No,Data Steward C,Tech Owner C,Complete,2026-01-07
+CardHub,Cards,EDW_CARDHUB,CARD_ACCOUNT,OPEN_DATE,Internal,No,Data Steward D,Tech Owner D,Complete,2026-04-19
+RiskView,Risk,EDW_RISKVIEW,RISK_SCORE,BALANCE_AMOUNT_DT,Confidential,No,Data Steward B,Tech Owner A,Complete,2026-03-26
+PaymentsCore,Payments,EDW_PAYMENTS,PAYMENT_TRANSACTION,BUSINESS_UNIT_DT,Internal,No,Data Steward E,Tech Owner A,Complete,2026-01-08
+TreasuryOps,Treasury,EDW_TREASURY,CASH_POSITION,ACCOUNT_ID,Confidential,Yes,Data Steward A,Tech Owner D,Complete,2026-06-10
+RiskView,Risk,EDW_RISKVIEW,MODEL_OUTPUT,SSN_LAST4,Restricted,Yes,Data Steward C,Tech Owner D,Incomplete,2026-05-02
+PaymentsCore,Payments,EDW_PAYMENTS,SETTLEMENT_BATCH,FIRST_NAME_NUM,Confidential,Yes,Data Steward A,Tech Owner B,Complete,2026-05-14
+BranchAnalytics,Retail Banking,EDW_BRANCHAN,BRANCH_KPI,OPEN_DATE,Internal,No,Data Steward D,Tech Owner C,Complete,2026-06-08
+LoanManager,Loans,EDW_LOANMANA,LOAN_PAYMENT,SOURCE_SYSTEM_DT,Internal,Yes,Data Steward A,Tech Owner C,Complete,2026-05-29
+TreasuryOps,Treasury,EDW_TREASURY,CASH_POSITION,STATUS_CODE,Internal,No,Data Steward B,Tech Owner C,Complete,2026-01-17
+PaymentsCore,Payments,EDW_PAYMENTS,SETTLEMENT_BATCH,CUSTOMER_ID_DT,Restricted,Yes,Data Steward A,Tech Owner D,Complete,2026-04-24
+FinanceMart,Finance,EDW_FINANCEM,REVENUE_SUMMARY,ADDRESS_LINE_1_NUM,Internal,Yes,Data Steward C,Tech Owner D,Complete,2026-05-24
+BranchAnalytics,Retail Banking,EDW_BRANCHAN,TELLER_ACTIVITY,CREATED_TS_CD,Internal,No,Data Steward E,Tech Owner D,Complete,2026-03-01
+CardHub,Cards,EDW_CARDHUB,CARD_ACCOUNT,BALANCE_AMOUNT_NUM,Confidential,No,Data Steward C,Tech Owner C,Complete,2026-04-27
+CardHub,Cards,EDW_CARDHUB,CARD_TRANSACTION,TRANSACTION_ID,Internal,Yes,Data Steward C,Tech Owner C,Complete,2026-06-08
+FinanceMart,Finance,EDW_FINANCEM,GL_BALANCE,LAST_NAME_CD,Confidential,No,Data Steward B,Tech Owner A,Complete,2026-02-19
+LoanManager,Loans,EDW_LOANMANA,LOAN_COLLATERAL,CUSTOMER_ID_NUM,Confidential,Yes,Data Steward D,Tech Owner C,Complete,2026-02-19
+PaymentsCore,Payments,EDW_PAYMENTS,MERCHANT_PROFILE,ZIP_CODE_NUM,Internal,No,Data Steward A,Tech Owner B,Complete,2026-03-07
+TreasuryOps,Treasury,EDW_TREASURY,LIQUIDITY_REPORT,PAYMENT_AMOUNT_NUM,Confidential,No,Data Steward D,Tech Owner A,Complete,2026-04-24
+FinanceMart,Finance,EDW_FINANCEM,GL_BALANCE,CREATED_TS_CD,Internal,No,Data Steward B,Tech Owner C,Complete,2026-04-22
+LoanManager,Loans,EDW_LOANMANA,LOAN_COLLATERAL,CITY_NUM,Internal,No,Data Steward A,Tech Owner B,Complete,2026-03-21
+TreasuryOps,Treasury,EDW_TREASURY,LIQUIDITY_REPORT,ADDRESS_LINE_1_SRC,Confidential,Yes,Data Steward C,Tech Owner C,Complete,2026-02-07
+FinanceMart,Finance,EDW_FINANCEM,COST_CENTER,FIRST_NAME_SRC,Confidential,Yes,Data Steward A,Tech Owner A,Complete,2026-04-05
+TreasuryOps,Treasury,EDW_TREASURY,LIQUIDITY_REPORT,FIRST_NAME_DT,Confidential,Yes,Data Steward B,Tech Owner C,Complete,2026-06-23
+Customer360,Retail Banking,EDW_CUSTOMER,CUSTOMER_PROFILE,LAST_NAME,Confidential,Yes,Data Steward C,Tech Owner D,Complete,2026-02-21
+BranchAnalytics,Retail Banking,EDW_BRANCHAN,BRANCH_VISIT,CITY_DT,Internal,No,Data Steward B,Tech Owner C,Complete,2026-03-29
+RiskView,Risk,EDW_RISKVIEW,MODEL_OUTPUT,DATE_OF_BIRTH,Restricted,Yes,Data Steward A,Tech Owner A,Complete,2026-05-29
+FinanceMart,Finance,EDW_FINANCEM,GL_BALANCE,BUSINESS_UNIT_DT,Internal,No,Data Steward B,Tech Owner B,Complete,2026-04-18
+CardHub,Cards,EDW_CARDHUB,CARD_ACCOUNT,PRODUCT_CODE_SRC,Internal,No,Data Steward D,Tech Owner D,Complete,2026-01-11
+BranchAnalytics,Retail Banking,EDW_BRANCHAN,TELLER_ACTIVITY,CUSTOMER_ID,Confidential,Yes,Data Steward E,Tech Owner B,Complete,2026-02-28
+Customer360,Retail Banking,EDW_CUSTOMER,CUSTOMER_CONTACT,BUSINESS_UNIT_DT,Internal,No,Data Steward E,Tech Owner B,Complete,2026-03-26
+FinanceMart,Finance,EDW_FINANCEM,GL_BALANCE,TRANSACTION_ID_DT,Internal,No,Data Steward A,Tech Owner C,Complete,2026-02-17
+RiskView,Risk,EDW_RISKVIEW,FRAUD_ALERT,CREATED_TS,Internal,No,Data Steward C,Tech Owner D,Complete,2026-01-19
+TreasuryOps,Treasury,EDW_TREASURY,CASH_POSITION,ZIP_CODE,Internal,No,Data Steward B,Tech Owner B,Complete,2026-03-16
+TreasuryOps,Treasury,EDW_TREASURY,LIQUIDITY_REPORT,CUSTOMER_ID_CD,Public,Yes,Data Steward E,Tech Owner B,Complete,2026-04-03
+Customer360,Retail Banking,EDW_CUSTOMER,CUSTOMER_CONTACT,STATUS_CODE,Internal,No,Data Steward E,Tech Owner A,Complete,2026-03-09
+Customer360,Retail Banking,EDW_CUSTOMER,CUSTOMER_ACCOUNT_LINK,FIRST_NAME_NUM,Confidential,Yes,Data Steward B,Tech Owner A,Complete,2026-03-04
+FinanceMart,Finance,EDW_FINANCEM,COST_CENTER,UPDATED_TS,Internal,No,Data Steward B,Tech Owner A,Complete,2026-01-06
+FinanceMart,Finance,EDW_FINANCEM,REVENUE_SUMMARY,PRODUCT_CODE_NUM,Internal,No,Data Steward B,Tech Owner D,Complete,2026-01-29
+CardHub,Cards,EDW_CARDHUB,CARD_TRANSACTION,FIRST_NAME_DT,Confidential,Yes,Data Steward A,Tech Owner D,Complete,2026-03-03
+TreasuryOps,Treasury,EDW_TREASURY,FX_RATE,BALANCE_AMOUNT,Confidential,No,Data Steward C,Tech Owner D,Complete,2026-05-15
+LoanManager,Loans,EDW_LOANMANA,LOAN_ACCOUNT,PAYMENT_AMOUNT_SRC,Confidential,Yes,Data Steward B,Tech Owner D,Complete,2026-01-17
+TreasuryOps,Treasury,EDW_TREASURY,CASH_POSITION,CUSTOMER_ID_NUM,Confidential,Yes,Data Steward A,Tech Owner A,Complete,2026-04-07
+FinanceMart,Finance,EDW_FINANCEM,REVENUE_SUMMARY,EMAIL_ADDRESS_SRC,Confidential,Yes,Data Steward C,Tech Owner C,Incomplete,2026-06-12
+Customer360,Retail Banking,EDW_CUSTOMER,CUSTOMER_PROFILE,DATE_OF_BIRTH_DT,Restricted,Yes,Data Steward A,Tech Owner C,Complete,2026-05-18
+RiskView,Risk,EDW_RISKVIEW,FRAUD_ALERT,SOURCE_SYSTEM,Internal,No,Data Steward A,Tech Owner A,Complete,2026-01-14
+RiskView,Risk,EDW_RISKVIEW,FRAUD_ALERT,OPEN_DATE_CD,Internal,No,Data Steward C,Tech Owner A,Complete,2026-05-11
+RiskView,Risk,EDW_RISKVIEW,RISK_SCORE,FIRST_NAME_SRC,Confidential,Yes,Data Steward D,Tech Owner D,Complete,2026-01-21
+PaymentsCore,Payments,EDW_PAYMENTS,SETTLEMENT_BATCH,CLOSE_DATE_DT,Internal,No,Data Steward D,Tech Owner B,Complete,2026-02-12
+LoanManager,Loans,EDW_LOANMANA,LOAN_ACCOUNT,COUNTRY_CODE_CD,Public,No,Data Steward D,Tech Owner D,Complete,2026-04-06
+PaymentsCore,Payments,EDW_PAYMENTS,MERCHANT_PROFILE,PRODUCT_CODE,Internal,No,Data Steward B,Tech Owner D,Complete,2026-04-06
+CardHub,Cards,EDW_CARDHUB,CARD_TRANSACTION,STATUS_CODE,Internal,No,Data Steward A,Tech Owner B,Complete,2026-05-07
+RiskView,Risk,EDW_RISKVIEW,MODEL_OUTPUT,BALANCE_AMOUNT_NUM,Confidential,No,Data Steward E,Tech Owner A,Complete,2026-05-30
+TreasuryOps,Treasury,EDW_TREASURY,FX_RATE,STATE_CODE_NUM,Public,No,Data Steward D,Tech Owner B,Complete,2026-02-21
+Customer360,Retail Banking,EDW_CUSTOMER,CUSTOMER_PROFILE,STATUS_CODE,Internal,No,Data Steward E,Tech Owner D,Complete,2026-03-20
+Customer360,Retail Banking,EDW_CUSTOMER,CUSTOMER_ACCOUNT_LINK,EMAIL_ADDRESS_CD,Confidential,Yes,Data Steward D,Tech Owner D,Incomplete,2026-04-06
+CardHub,Cards,EDW_CARDHUB,CARD_TRANSACTION,OPEN_DATE_DT,Internal,No,Data Steward E,Tech Owner D,Complete,2026-05-13
+BranchAnalytics,Retail Banking,EDW_BRANCHAN,TELLER_ACTIVITY,CITY,Internal,No,Data Steward D,Tech Owner A,Complete,2026-05-12
+PaymentsCore,Payments,EDW_PAYMENTS,MERCHANT_PROFILE,ACCOUNT_ID_CD,Confidential,Yes,Data Steward E,Tech Owner A,Complete,2026-04-21
+Customer360,Retail Banking,EDW_CUSTOMER,CUSTOMER_PROFILE,OPEN_DATE,Confidential,No,Data Steward E,Tech Owner D,Complete,2026-04-08
+CardHub,Cards,EDW_CARDHUB,CARD_LIMIT,EMAIL_ADDRESS,Confidential,Yes,Data Steward C,Tech Owner C,Complete,2026-01-22
+FinanceMart,Finance,EDW_FINANCEM,REVENUE_SUMMARY,BALANCE_AMOUNT,Internal,No,Data Steward A,Tech Owner A,Complete,2026-06-14
+BranchAnalytics,Retail Banking,EDW_BRANCHAN,BRANCH_VISIT,UPDATED_TS_NUM,Internal,No,Data Steward D,Tech Owner A,Complete,2026-01-10
+TreasuryOps,Treasury,EDW_TREASURY,CASH_POSITION,FIRST_NAME_DT,Confidential,Yes,Data Steward D,Tech Owner B,Incomplete,2026-03-26
+PaymentsCore,Payments,EDW_PAYMENTS,PAYMENT_TRANSACTION,STATUS_CODE_DT,Internal,No,Data Steward E,Tech Owner A,Complete,2026-02-05
+BranchAnalytics,Retail Banking,EDW_BRANCHAN,BRANCH_KPI,INTEREST_RATE_CD,Confidential,No,Data Steward B,Tech Owner D,Complete,2026-03-08
+Customer360,Retail Banking,EDW_CUSTOMER,CUSTOMER_ACCOUNT_LINK,COUNTRY_CODE_DT,Public,No,Data Steward E,Tech Owner D,Complete,2026-04-14
+LoanManager,Loans,EDW_LOANMANA,LOAN_ACCOUNT,ZIP_CODE_NUM,Internal,No,Data Steward E,Tech Owner C,Complete,2026-01-04
+PaymentsCore,Payments,EDW_PAYMENTS,MERCHANT_PROFILE,PRODUCT_CODE_NUM,Internal,No,Data Steward B,Tech Owner C,Complete,2026-02-08
+FinanceMart,Finance,EDW_FINANCEM,REVENUE_SUMMARY,PAYMENT_AMOUNT_DT,Confidential,No,Data Steward C,Tech Owner B,Complete,2026-02-23
+RiskView,Risk,EDW_RISKVIEW,MODEL_OUTPUT,LAST_NAME_NUM,Confidential,Yes,Data Steward B,Tech Owner C,Complete,2026-05-22
+RiskView,Risk,EDW_RISKVIEW,MODEL_OUTPUT,CLOSE_DATE_CD,Internal,No,Data Steward E,Tech Owner D,Complete,2026-03-29
+FinanceMart,Finance,EDW_FINANCEM,COST_CENTER,CUSTOMER_ID_CD,Confidential,Yes,Data Steward A,Tech Owner A,Complete,2026-04-20
+LoanManager,Loans,EDW_LOANMANA,LOAN_ACCOUNT,CREATED_TS,Internal,No,Data Steward B,Tech Owner C,Complete,2026-04-23
+FinanceMart,Finance,EDW_FINANCEM,REVENUE_SUMMARY,PHONE_NUMBER,Confidential,Yes,Data Steward A,Tech Owner C,Complete,2026-02-05
+TreasuryOps,Treasury,EDW_TREASURY,LIQUIDITY_REPORT,STATUS_CODE_CD,Internal,No,Data Steward D,Tech Owner B,Complete,2026-01-03
+FinanceMart,Finance,EDW_FINANCEM,REVENUE_SUMMARY,CREATED_TS,Internal,No,Data Steward D,Tech Owner D,Incomplete,2026-03-28
+RiskView,Risk,EDW_RISKVIEW,MODEL_OUTPUT,ACCOUNT_ID,Confidential,Yes,Data Steward C,Tech Owner B,Complete,2026-05-18
+FinanceMart,Finance,EDW_FINANCEM,COST_CENTER,DATE_OF_BIRTH_NUM,Restricted,Yes,Data Steward A,Tech Owner B,Complete,2026-03-26
+CardHub,Cards,EDW_CARDHUB,CARD_TRANSACTION,ACCOUNT_ID_SRC,Confidential,Yes,Data Steward C,Tech Owner C,Complete,2026-05-27
+RiskView,Risk,EDW_RISKVIEW,FRAUD_ALERT,UPDATED_TS,Confidential,No,Data Steward A,Tech Owner B,Complete,2026-04-11
+FinanceMart,Finance,EDW_FINANCEM,COST_CENTER,INTEREST_RATE_CD,Internal,No,Data Steward C,Tech Owner A,Complete,2026-04-26
+TreasuryOps,Treasury,EDW_TREASURY,CASH_POSITION,BALANCE_AMOUNT,Confidential,No,Data Steward E,Tech Owner B,Complete,2026-01-27
+RiskView,Risk,EDW_RISKVIEW,FRAUD_ALERT,SSN_LAST4_DT,Restricted,Yes,Data Steward E,Tech Owner D,Complete,2026-06-04
+Customer360,Retail Banking,EDW_CUSTOMER,CUSTOMER_PROFILE,CREATED_TS,Internal,No,Data Steward D,Tech Owner B,Complete,2026-04-09
+TreasuryOps,Treasury,EDW_TREASURY,CASH_POSITION,CREATED_TS,Public,No,Data Steward D,Tech Owner A,Complete,2026-05-15
+CardHub,Cards,EDW_CARDHUB,CARD_ACCOUNT,BUSINESS_UNIT_CD,Internal,Yes,Data Steward E,Tech Owner A,Complete,2026-01-29
+CardHub,Cards,EDW_CARDHUB,CARD_ACCOUNT,CREATED_TS_NUM,Internal,Yes,Data Steward B,Tech Owner D,Complete,2026-02-22
+TreasuryOps,Treasury,EDW_TREASURY,LIQUIDITY_REPORT,UPDATED_TS_NUM,Internal,No,Data Steward D,Tech Owner A,Complete,2026-06-20
+Customer360,Retail Banking,EDW_CUSTOMER,CUSTOMER_PROFILE,PHONE_NUMBER_CD,Confidential,Yes,Data Steward A,Tech Owner B,Complete,2026-03-21
+PaymentsCore,Payments,EDW_PAYMENTS,MERCHANT_PROFILE,OPEN_DATE_NUM,Internal,No,Data Steward D,Tech Owner D,Incomplete,2026-04-28
+Customer360,Retail Banking,EDW_CUSTOMER,CUSTOMER_ACCOUNT_LINK,SOURCE_SYSTEM_CD,Internal,No,Data Steward A,Tech Owner A,Complete,2026-04-13
+RiskView,Risk,EDW_RISKVIEW,MODEL_OUTPUT,FIRST_NAME,Confidential,Yes,Data Steward C,Tech Owner A,Complete,2026-05-26
+BranchAnalytics,Retail Banking,EDW_BRANCHAN,TELLER_ACTIVITY,ZIP_CODE_DT,Internal,No,Data Steward A,Tech Owner D,Complete,2026-01-11
+TreasuryOps,Treasury,EDW_TREASURY,CASH_POSITION,SOURCE_SYSTEM_SRC,Internal,No,Data Steward E,Tech Owner C,Complete,2026-04-27
+LoanManager,Loans,EDW_LOANMANA,LOAN_PAYMENT,CREATED_TS_DT,Internal,No,Data Steward C,Tech Owner A,Complete,2026-04-11
+FinanceMart,Finance,EDW_FINANCEM,GL_BALANCE,SOURCE_SYSTEM_NUM,Internal,No,Data Steward C,Tech Owner B,Complete,2026-02-15
+LoanManager,Loans,EDW_LOANMANA,LOAN_ACCOUNT,DATE_OF_BIRTH,Restricted,Yes,Data Steward E,Tech Owner C,Complete,2026-04-09
+CardHub,Cards,EDW_CARDHUB,CARD_ACCOUNT,CREATED_TS_DT,Internal,No,Data Steward E,Tech Owner A,Complete,2026-01-25
+BranchAnalytics,Retail Banking,EDW_BRANCHAN,BRANCH_KPI,PAYMENT_AMOUNT,Confidential,No,Data Steward C,Tech Owner A,Incomplete,2026-02-10
+TreasuryOps,Treasury,EDW_TREASURY,CASH_POSITION,ADDRESS_LINE_1_CD,Confidential,Yes,Data Steward A,Tech Owner B,Complete,2026-02-25
+FinanceMart,Finance,EDW_FINANCEM,REVENUE_SUMMARY,INTEREST_RATE,Internal,Yes,Data Steward E,Tech Owner C,Complete,2026-05-22
+TreasuryOps,Treasury,EDW_TREASURY,CASH_POSITION,UPDATED_TS_NUM,Internal,No,Data Steward D,Tech Owner C,Complete,2026-05-10
+BranchAnalytics,Retail Banking,EDW_BRANCHAN,TELLER_ACTIVITY,OPEN_DATE,Internal,No,Data Steward C,Tech Owner D,Incomplete,2026-02-12
+CardHub,Cards,EDW_CARDHUB,CARD_ACCOUNT,STATUS_CODE_CD,Internal,No,Data Steward A,Tech Owner C,Complete,2026-06-22
+TreasuryOps,Treasury,EDW_TREASURY,FX_RATE,SOURCE_SYSTEM_NUM,Internal,No,Data Steward A,Tech Owner A,Complete,2026-04-13
+Customer360,Retail Banking,EDW_CUSTOMER,CUSTOMER_ACCOUNT_LINK,INTEREST_RATE_SRC,Internal,Yes,Data Steward E,Tech Owner B,Complete,2026-03-06
+FinanceMart,Finance,EDW_FINANCEM,REVENUE_SUMMARY,PAYMENT_AMOUNT_SRC,Confidential,No,Data Steward B,Tech Owner C,Complete,2026-05-05
+TreasuryOps,Treasury,EDW_TREASURY,LIQUIDITY_REPORT,SOURCE_SYSTEM_DT,Internal,No,Data Steward C,Tech Owner B,Complete,2026-03-04
+CardHub,Cards,EDW_CARDHUB,CARD_TRANSACTION,STATE_CODE_CD,Public,No,Data Steward A,Tech Owner B,Complete,2026-03-13
+LoanManager,Loans,EDW_LOANMANA,LOAN_COLLATERAL,LAST_NAME_SRC,Confidential,No,Data Steward B,Tech Owner B,Complete,2026-06-05
+LoanManager,Loans,EDW_LOANMANA,LOAN_COLLATERAL,SOURCE_SYSTEM_SRC,Internal,No,Data Steward A,Tech Owner A,Complete,2026-04-11
+RiskView,Risk,EDW_RISKVIEW,RISK_SCORE,ACCOUNT_ID_NUM,Confidential,Yes,Data Steward B,Tech Owner A,Complete,2026-02-15
+FinanceMart,Finance,EDW_FINANCEM,REVENUE_SUMMARY,PHONE_NUMBER_CD,Confidential,Yes,Data Steward E,Tech Owner B,Complete,2026-06-12
+PaymentsCore,Payments,EDW_PAYMENTS,MERCHANT_PROFILE,INTEREST_RATE_NUM,Internal,No,Data Steward A,Tech Owner C,Complete,2026-06-18
+RiskView,Risk,EDW_RISKVIEW,FRAUD_ALERT,CLOSE_DATE_CD,Public,No,Data Steward A,Tech Owner B,Complete,2026-04-24
+LoanManager,Loans,EDW_LOANMANA,LOAN_ACCOUNT,TRANSACTION_ID_CD,Internal,No,Data Steward C,Tech Owner B,Complete,2026-03-05
+LoanManager,Loans,EDW_LOANMANA,LOAN_ACCOUNT,STATE_CODE_CD,Public,No,Data Steward A,Tech Owner B,Complete,2026-01-05
+BranchAnalytics,Retail Banking,EDW_BRANCHAN,TELLER_ACTIVITY,SSN_LAST4_CD,Restricted,Yes,Data Steward B,Tech Owner D,Complete,2026-02-19
+TreasuryOps,Treasury,EDW_TREASURY,CASH_POSITION,LAST_NAME_CD,Confidential,Yes,Data Steward E,Tech Owner B,Complete,2026-01-25
+Customer360,Retail Banking,EDW_CUSTOMER,CUSTOMER_ACCOUNT_LINK,LAST_NAME,Restricted,Yes,Data Steward B,Tech Owner C,Complete,2026-02-12
+PaymentsCore,Payments,EDW_PAYMENTS,SETTLEMENT_BATCH,INTEREST_RATE_NUM,Internal,No,Data Steward A,Tech Owner A,Complete,2026-06-10
+TreasuryOps,Treasury,EDW_TREASURY,FX_RATE,PRODUCT_CODE_SRC,Internal,No,Data Steward D,Tech Owner B,Complete,2026-01-28
+CardHub,Cards,EDW_CARDHUB,CARD_ACCOUNT,ZIP_CODE_SRC,Internal,No,Data Steward B,Tech Owner A,Incomplete,2026-04-28
+LoanManager,Loans,EDW_LOANMANA,LOAN_PAYMENT,PRODUCT_CODE_CD,Public,No,Data Steward A,Tech Owner A,Complete,2026-01-12
+BranchAnalytics,Retail Banking,EDW_BRANCHAN,BRANCH_KPI,LAST_NAME_CD,Confidential,Yes,Data Steward E,Tech Owner A,Complete,2026-01-27
+PaymentsCore,Payments,EDW_PAYMENTS,SETTLEMENT_BATCH,COUNTRY_CODE,Public,No,Data Steward A,Tech Owner D,Complete,2026-01-25
+PaymentsCore,Payments,EDW_PAYMENTS,MERCHANT_PROFILE,SSN_LAST4,Restricted,Yes,Data Steward A,Tech Owner A,Complete,2026-06-23
+RiskView,Risk,EDW_RISKVIEW,FRAUD_ALERT,STATE_CODE,Public,No,Data Steward B,Tech Owner D,Complete,2026-02-14
+FinanceMart,Finance,EDW_FINANCEM,COST_CENTER,PAYMENT_AMOUNT_SRC,Confidential,No,Data Steward E,Tech Owner C,Complete,2026-06-20
+RiskView,Risk,EDW_RISKVIEW,MODEL_OUTPUT,PAYMENT_AMOUNT_SRC,Confidential,No,Data Steward C,Tech Owner C,Complete,2026-03-01
+RiskView,Risk,EDW_RISKVIEW,MODEL_OUTPUT,ZIP_CODE_NUM,Public,No,Data Steward B,Tech Owner A,Complete,2026-03-01
+BranchAnalytics,Retail Banking,EDW_BRANCHAN,BRANCH_KPI,DATE_OF_BIRTH,Restricted,Yes,Data Steward B,Tech Owner D,Complete,2026-03-04
+Customer360,Retail Banking,EDW_CUSTOMER,CUSTOMER_PROFILE,ZIP_CODE_NUM,Internal,No,Data Steward A,Tech Owner A,Complete,2026-05-08
+BranchAnalytics,Retail Banking,EDW_BRANCHAN,BRANCH_KPI,COUNTRY_CODE,Restricted,No,Data Steward A,Tech Owner C,Complete,2026-06-14
+RiskView,Risk,EDW_RISKVIEW,RISK_SCORE,PRODUCT_CODE,Internal,No,Data Steward D,Tech Owner D,Complete,2026-03-23
+LoanManager,Loans,EDW_LOANMANA,LOAN_COLLATERAL,CLOSE_DATE_SRC,Internal,No,Data Steward A,Tech Owner B,Complete,2026-04-17
+FinanceMart,Finance,EDW_FINANCEM,GL_BALANCE,ACCOUNT_ID_DT,Confidential,Yes,Data Steward E,Tech Owner B,Complete,2026-02-28
+LoanManager,Loans,EDW_LOANMANA,LOAN_COLLATERAL,ACCOUNT_ID,Confidential,Yes,Data Steward B,Tech Owner A,Complete,2026-02-22
+CardHub,Cards,EDW_CARDHUB,CARD_TRANSACTION,BUSINESS_UNIT_SRC,Internal,No,Data Steward C,Tech Owner D,Complete,2026-06-25
+TreasuryOps,Treasury,EDW_TREASURY,LIQUIDITY_REPORT,CUSTOMER_ID_NUM,Confidential,Yes,Data Steward A,Tech Owner A,Complete,2026-04-08
+FinanceMart,Finance,EDW_FINANCEM,REVENUE_SUMMARY,PAYMENT_AMOUNT_CD,Internal,No,Data Steward C,Tech Owner C,Complete,2026-01-02
+TreasuryOps,Treasury,EDW_TREASURY,LIQUIDITY_REPORT,SSN_LAST4_SRC,Restricted,Yes,Data Steward D,Tech Owner A,Complete,2026-02-06
+LoanManager,Loans,EDW_LOANMANA,LOAN_PAYMENT,BALANCE_AMOUNT,Confidential,No,Data Steward E,Tech Owner A,Complete,2026-06-01
+FinanceMart,Finance,EDW_FINANCEM,COST_CENTER,FIRST_NAME_DT,Confidential,Yes,Data Steward E,Tech Owner C,Complete,2026-01-21
+FinanceMart,Finance,EDW_FINANCEM,REVENUE_SUMMARY,OPEN_DATE_SRC,Internal,No,Data Steward E,Tech Owner D,Incomplete,2026-02-20
+RiskView,Risk,EDW_RISKVIEW,FRAUD_ALERT,CREATED_TS_SRC,Internal,No,Data Steward E,Tech Owner A,Complete,2026-05-28
+CardHub,Cards,EDW_CARDHUB,CARD_TRANSACTION,TRANSACTION_ID_SRC,Internal,Yes,Data Steward B,Tech Owner B,Complete,2026-05-04
+PaymentsCore,Payments,EDW_PAYMENTS,MERCHANT_PROFILE,BALANCE_AMOUNT_CD,Confidential,No,Data Steward A,Tech Owner C,Complete,2026-05-01
+FinanceMart,Finance,EDW_FINANCEM,GL_BALANCE,ZIP_CODE_NUM,Internal,No,Data Steward C,Tech Owner A,Complete,2026-04-21
+CardHub,Cards,EDW_CARDHUB,CARD_ACCOUNT,TRANSACTION_ID_NUM,Internal,No,Data Steward D,Tech Owner A,Complete,2026-03-18
+Customer360,Retail Banking,EDW_CUSTOMER,CUSTOMER_CONTACT,STATE_CODE_CD,Public,No,Data Steward C,Tech Owner D,Incomplete,2026-02-14
+LoanManager,Loans,EDW_LOANMANA,LOAN_ACCOUNT,BALANCE_AMOUNT_DT,Confidential,No,Data Steward D,Tech Owner D,Complete,2026-05-24
+Customer360,Retail Banking,EDW_CUSTOMER,CUSTOMER_ACCOUNT_LINK,STATE_CODE_SRC,Public,No,Data Steward B,Tech Owner A,Complete,2026-05-01
+BranchAnalytics,Retail Banking,EDW_BRANCHAN,TELLER_ACTIVITY,UPDATED_TS,Internal,No,Data Steward A,Tech Owner B,Complete,2026-04-06
+TreasuryOps,Treasury,EDW_TREASURY,FX_RATE,CLOSE_DATE_CD,Internal,No,Data Steward C,Tech Owner C,Complete,2026-04-06
+BranchAnalytics,Retail Banking,EDW_BRANCHAN,TELLER_ACTIVITY,SSN_LAST4_SRC,Public,Yes,Data Steward C,Tech Owner C,Complete,2026-05-31
+FinanceMart,Finance,EDW_FINANCEM,COST_CENTER,DATE_OF_BIRTH_CD,Restricted,Yes,Data Steward B,Tech Owner B,Complete,2026-04-22
+FinanceMart,Finance,EDW_FINANCEM,GL_BALANCE,PAYMENT_AMOUNT_SRC,Confidential,No,Data Steward D,Tech Owner B,Complete,2026-05-06
+LoanManager,Loans,EDW_LOANMANA,LOAN_PAYMENT,CUSTOMER_ID,Confidential,Yes,Data Steward D,Tech Owner D,Complete,2026-06-16
+RiskView,Risk,EDW_RISKVIEW,FRAUD_ALERT,ADDRESS_LINE_1,Confidential,Yes,Data Steward E,Tech Owner A,Complete,2026-03-04
+CardHub,Cards,EDW_CARDHUB,CARD_LIMIT,DATE_OF_BIRTH,Confidential,Yes,Data Steward B,Tech Owner C,Complete,2026-06-23
+CardHub,Cards,EDW_CARDHUB,CARD_TRANSACTION,SOURCE_SYSTEM,Internal,No,Data Steward B,Tech Owner C,Complete,2026-06-24
+FinanceMart,Finance,EDW_FINANCEM,COST_CENTER,CUSTOMER_ID_SRC,Confidential,Yes,Data Steward A,Tech Owner C,Complete,2026-06-14
+TreasuryOps,Treasury,EDW_TREASURY,LIQUIDITY_REPORT,INTEREST_RATE_NUM,Internal,No,Data Steward E,Tech Owner B,Complete,2026-05-31
+RiskView,Risk,EDW_RISKVIEW,FRAUD_ALERT,CREATED_TS_CD,Internal,No,Data Steward D,Tech Owner D,Complete,2026-02-18
+PaymentsCore,Payments,EDW_PAYMENTS,SETTLEMENT_BATCH,ADDRESS_LINE_1_SRC,Confidential,Yes,Data Steward B,Tech Owner B,Complete,2026-03-06
+RiskView,Risk,EDW_RISKVIEW,FRAUD_ALERT,STATUS_CODE_CD,Internal,No,Data Steward E,Tech Owner D,Complete,2026-06-18
+CardHub,Cards,EDW_CARDHUB,CARD_ACCOUNT,CITY,Internal,No,Data Steward C,Tech Owner C,Complete,2026-04-16
+RiskView,Risk,EDW_RISKVIEW,MODEL_OUTPUT,INTEREST_RATE_CD,Internal,No,Data Steward D,Tech Owner D,Complete,2026-01-28
+LoanManager,Loans,EDW_LOANMANA,LOAN_ACCOUNT,LAST_NAME_NUM,Confidential,Yes,Data Steward B,Tech Owner C,Complete,2026-03-10
+CardHub,Cards,EDW_CARDHUB,CARD_ACCOUNT,CLOSE_DATE_CD,Public,No,Data Steward A,Tech Owner A,Complete,2026-03-20
+CardHub,Cards,EDW_CARDHUB,CARD_ACCOUNT,PHONE_NUMBER_CD,Confidential,Yes,Data Steward B,Tech Owner A,Complete,2026-04-17
+LoanManager,Loans,EDW_LOANMANA,LOAN_COLLATERAL,DATE_OF_BIRTH,Restricted,Yes,Data Steward D,Tech Owner C,Complete,2026-04-21
+BranchAnalytics,Retail Banking,EDW_BRANCHAN,TELLER_ACTIVITY,PAYMENT_AMOUNT,Confidential,No,Data Steward E,Tech Owner D,Complete,2026-02-16
+LoanManager,Loans,EDW_LOANMANA,LOAN_COLLATERAL,PRODUCT_CODE_SRC,Internal,No,Data Steward E,Tech Owner A,Complete,2026-02-24
+FinanceMart,Finance,EDW_FINANCEM,COST_CENTER,CLOSE_DATE_CD,Internal,No,Data Steward B,Tech Owner A,Complete,2026-04-15
+FinanceMart,Finance,EDW_FINANCEM,COST_CENTER,COUNTRY_CODE,Public,No,Data Steward D,Tech Owner C,Complete,2026-06-12
+Customer360,Retail Banking,EDW_CUSTOMER,CUSTOMER_ACCOUNT_LINK,BUSINESS_UNIT_DT,Public,No,Data Steward B,Tech Owner C,Complete,2026-03-29
+BranchAnalytics,Retail Banking,EDW_BRANCHAN,BRANCH_KPI,CUSTOMER_ID_NUM,Public,Yes,Data Steward D,Tech Owner D,Complete,2026-01-03
+Customer360,Retail Banking,EDW_CUSTOMER,CUSTOMER_CONTACT,ADDRESS_LINE_1_CD,Confidential,Yes,Data Steward B,Tech Owner A,Complete,2026-01-02
+RiskView,Risk,EDW_RISKVIEW,RISK_SCORE,COUNTRY_CODE_CD,Public,No,Data Steward D,Tech Owner D,Complete,2026-03-10
+FinanceMart,Finance,EDW_FINANCEM,COST_CENTER,STATUS_CODE_NUM,Internal,No,Data Steward E,Tech Owner C,Complete,2026-06-04
+TreasuryOps,Treasury,EDW_TREASURY,CASH_POSITION,DATE_OF_BIRTH,Restricted,Yes,Data Steward C,Tech Owner A,Complete,2026-03-29
+BranchAnalytics,Retail Banking,EDW_BRANCHAN,BRANCH_VISIT,CITY,Internal,No,Data Steward B,Tech Owner A,Complete,2026-06-20
+Customer360,Retail Banking,EDW_CUSTOMER,CUSTOMER_PROFILE,FIRST_NAME,Confidential,Yes,Data Steward C,Tech Owner B,Complete,2026-04-02
+PaymentsCore,Payments,EDW_PAYMENTS,PAYMENT_TRANSACTION,PAYMENT_AMOUNT_SRC,Confidential,No,Data Steward B,Tech Owner B,Complete,2026-03-05
+PaymentsCore,Payments,EDW_PAYMENTS,PAYMENT_TRANSACTION,FIRST_NAME_DT,Confidential,Yes,Data Steward B,Tech Owner D,Complete,2026-05-02
+TreasuryOps,Treasury,EDW_TREASURY,LIQUIDITY_REPORT,ACCOUNT_ID,Confidential,Yes,Data Steward D,Tech Owner A,Complete,2026-06-13
+Customer360,Retail Banking,EDW_CUSTOMER,CUSTOMER_ACCOUNT_LINK,PAYMENT_AMOUNT_CD,Confidential,No,Data Steward A,Tech Owner C,Complete,2026-03-25
+PaymentsCore,Payments,EDW_PAYMENTS,MERCHANT_PROFILE,CUSTOMER_ID,Confidential,Yes,Data Steward C,Tech Owner A,Complete,2026-04-13
+TreasuryOps,Treasury,EDW_TREASURY,CASH_POSITION,ACCOUNT_ID_CD,Confidential,Yes,Data Steward D,Tech Owner B,Complete,2026-05-02
+CardHub,Cards,EDW_CARDHUB,CARD_ACCOUNT,DATE_OF_BIRTH_SRC,Restricted,Yes,Data Steward A,Tech Owner C,Complete,2026-04-09
+Customer360,Retail Banking,EDW_CUSTOMER,CUSTOMER_PROFILE,STATE_CODE_NUM,Public,No,Data Steward B,Tech Owner A,Complete,2026-05-14
+BranchAnalytics,Retail Banking,EDW_BRANCHAN,BRANCH_VISIT,CITY_CD,Internal,No,Data Steward C,Tech Owner D,Complete,2026-02-02
+Customer360,Retail Banking,EDW_CUSTOMER,CUSTOMER_ACCOUNT_LINK,ZIP_CODE,Internal,No,Data Steward B,Tech Owner C,Complete,2026-06-22
+BranchAnalytics,Retail Banking,EDW_BRANCHAN,BRANCH_KPI,OPEN_DATE_CD,Internal,No,Data Steward C,Tech Owner D,Complete,2026-04-25
+BranchAnalytics,Retail Banking,EDW_BRANCHAN,TELLER_ACTIVITY,PRODUCT_CODE_DT,Internal,No,Data Steward E,Tech Owner B,Incomplete,2026-03-03
+LoanManager,Loans,EDW_LOANMANA,LOAN_PAYMENT,ADDRESS_LINE_1_DT,Confidential,Yes,Data Steward C,Tech Owner C,Complete,2026-01-28
+CardHub,Cards,EDW_CARDHUB,CARD_LIMIT,PAYMENT_AMOUNT_DT,Confidential,No,Data Steward D,Tech Owner B,Complete,2026-02-26
+FinanceMart,Finance,EDW_FINANCEM,COST_CENTER,COUNTRY_CODE_NUM,Public,Yes,Data Steward C,Tech Owner A,Complete,2026-06-21
+Customer360,Retail Banking,EDW_CUSTOMER,CUSTOMER_PROFILE,FIRST_NAME_SRC,Confidential,No,Data Steward B,Tech Owner A,Complete,2026-05-06
+PaymentsCore,Payments,EDW_PAYMENTS,SETTLEMENT_BATCH,CLOSE_DATE_CD,Confidential,No,Data Steward E,Tech Owner C,Complete,2026-06-03
+RiskView,Risk,EDW_RISKVIEW,RISK_SCORE,PRODUCT_CODE_NUM,Internal,No,Data Steward A,Tech Owner A,Complete,2026-04-08
+BranchAnalytics,Retail Banking,EDW_BRANCHAN,BRANCH_VISIT,OPEN_DATE_DT,Internal,No,Data Steward A,Tech Owner C,Complete,2026-04-22
+FinanceMart,Finance,EDW_FINANCEM,REVENUE_SUMMARY,ACCOUNT_ID_NUM,Confidential,No,Data Steward A,Tech Owner C,Complete,2026-03-16
+TreasuryOps,Treasury,EDW_TREASURY,LIQUIDITY_REPORT,CREATED_TS,Internal,No,Data Steward E,Tech Owner B,Complete,2026-02-18
+PaymentsCore,Payments,EDW_PAYMENTS,SETTLEMENT_BATCH,FIRST_NAME_DT,Confidential,Yes,Data Steward E,Tech Owner C,Complete,2026-02-02
+BranchAnalytics,Retail Banking,EDW_BRANCHAN,BRANCH_KPI,CREATED_TS_SRC,Internal,No,Data Steward A,Tech Owner B,Complete,2026-01-01
+RiskView,Risk,EDW_RISKVIEW,FRAUD_ALERT,BUSINESS_UNIT_NUM,Internal,No,Data Steward D,Tech Owner C,Complete,2026-04-10
+TreasuryOps,Treasury,EDW_TREASURY,LIQUIDITY_REPORT,PAYMENT_AMOUNT,Confidential,No,Data Steward D,Tech Owner C,Complete,2026-06-23
+Customer360,Retail Banking,EDW_CUSTOMER,CUSTOMER_CONTACT,PRODUCT_CODE,Internal,No,Data Steward E,Tech Owner B,Complete,2026-06-04
+Customer360,Retail Banking,EDW_CUSTOMER,CUSTOMER_CONTACT,EMAIL_ADDRESS,Confidential,Yes,Data Steward C,Tech Owner A,Complete,2026-05-18
+LoanManager,Loans,EDW_LOANMANA,LOAN_ACCOUNT,ACCOUNT_ID_SRC,Confidential,Yes,Data Steward C,Tech Owner B,Complete,2026-03-17
+FinanceMart,Finance,EDW_FINANCEM,COST_CENTER,INTEREST_RATE,Internal,No,Data Steward B,Tech Owner C,Complete,2026-02-07
+TreasuryOps,Treasury,EDW_TREASURY,LIQUIDITY_REPORT,TRANSACTION_ID_NUM,Internal,No,Data Steward C,Tech Owner D,Complete,2026-01-09
+BranchAnalytics,Retail Banking,EDW_BRANCHAN,BRANCH_KPI,UPDATED_TS_CD,Internal,No,Data Steward A,Tech Owner C,Incomplete,2026-02-01
+PaymentsCore,Payments,EDW_PAYMENTS,PAYMENT_TRANSACTION,BUSINESS_UNIT,Confidential,No,Data Steward C,Tech Owner C,Complete,2026-04-07
+Customer360,Retail Banking,EDW_CUSTOMER,CUSTOMER_ACCOUNT_LINK,BUSINESS_UNIT_NUM,Internal,No,Data Steward D,Tech Owner A,Complete,2026-02-27
+LoanManager,Loans,EDW_LOANMANA,LOAN_PAYMENT,BALANCE_AMOUNT_NUM,Confidential,No,Data Steward B,Tech Owner B,Complete,2026-02-15
+CardHub,Cards,EDW_CARDHUB,CARD_ACCOUNT,COUNTRY_CODE,Public,No,Data Steward D,Tech Owner B,Complete,2026-06-18
+RiskView,Risk,EDW_RISKVIEW,RISK_SCORE,CLOSE_DATE_CD,Internal,No,Data Steward A,Tech Owner D,Complete,2026-05-21
+CardHub,Cards,EDW_CARDHUB,CARD_TRANSACTION,BALANCE_AMOUNT_SRC,Confidential,No,Data Steward B,Tech Owner B,Complete,2026-03-31
+TreasuryOps,Treasury,EDW_TREASURY,CASH_POSITION,TRANSACTION_ID,Internal,No,Data Steward D,Tech Owner C,Complete,2026-03-14
+CardHub,Cards,EDW_CARDHUB,CARD_ACCOUNT,CREATED_TS_SRC,Internal,No,Data Steward D,Tech Owner C,Complete,2026-05-21
+TreasuryOps,Treasury,EDW_TREASURY,FX_RATE,STATE_CODE_CD,Public,No,Data Steward A,Tech Owner C,Complete,2026-05-29
+RiskView,Risk,EDW_RISKVIEW,MODEL_OUTPUT,OPEN_DATE_CD,Internal,No,Data Steward B,Tech Owner D,Complete,2026-03-19
+Customer360,Retail Banking,EDW_CUSTOMER,CUSTOMER_CONTACT,SSN_LAST4_NUM,Restricted,Yes,Data Steward E,Tech Owner B,Complete,2026-04-24
+FinanceMart,Finance,EDW_FINANCEM,REVENUE_SUMMARY,CLOSE_DATE_CD,Internal,No,Data Steward B,Tech Owner D,Complete,2026-02-23
+FinanceMart,Finance,EDW_FINANCEM,GL_BALANCE,OPEN_DATE_NUM,Internal,No,Data Steward A,Tech Owner A,Complete,2026-04-20
+CardHub,Cards,EDW_CARDHUB,CARD_ACCOUNT,ADDRESS_LINE_1_DT,Confidential,Yes,Data Steward D,Tech Owner B,Complete,2026-01-25
+CardHub,Cards,EDW_CARDHUB,CARD_TRANSACTION,CLOSE_DATE_DT,Internal,Yes,Data Steward E,Tech Owner A,Complete,2026-01-14
+TreasuryOps,Treasury,EDW_TREASURY,LIQUIDITY_REPORT,OPEN_DATE_CD,Internal,No,Data Steward A,Tech Owner A,Complete,2026-02-08
+FinanceMart,Finance,EDW_FINANCEM,COST_CENTER,CLOSE_DATE_SRC,Internal,No,Data Steward B,Tech Owner A,Incomplete,2026-01-31
+RiskView,Risk,EDW_RISKVIEW,FRAUD_ALERT,STATUS_CODE,Internal,No,Data Steward B,Tech Owner C,Complete,2026-02-14
+PaymentsCore,Payments,EDW_PAYMENTS,SETTLEMENT_BATCH,LAST_NAME,Confidential,Yes,Data Steward D,Tech Owner B,Complete,2026-06-21
+FinanceMart,Finance,EDW_FINANCEM,REVENUE_SUMMARY,CITY_SRC,Internal,No,Data Steward E,Tech Owner B,Complete,2026-06-16
+LoanManager,Loans,EDW_LOANMANA,LOAN_COLLATERAL,PAYMENT_AMOUNT_NUM,Public,No,Data Steward B,Tech Owner B,Complete,2026-04-05
+LoanManager,Loans,EDW_LOANMANA,LOAN_PAYMENT,TRANSACTION_ID_CD,Internal,No,Data Steward E,Tech Owner A,Incomplete,2026-05-11
+RiskView,Risk,EDW_RISKVIEW,RISK_SCORE,SOURCE_SYSTEM,Internal,No,Data Steward C,Tech Owner B,Complete,2026-06-01
+FinanceMart,Finance,EDW_FINANCEM,COST_CENTER,SOURCE_SYSTEM_DT,Restricted,No,Data Steward C,Tech Owner B,Complete,2026-03-25
+Customer360,Retail Banking,EDW_CUSTOMER,CUSTOMER_CONTACT,TRANSACTION_ID_NUM,Internal,No,Data Steward D,Tech Owner B,Complete,2026-05-18
+LoanManager,Loans,EDW_LOANMANA,LOAN_PAYMENT,CLOSE_DATE_SRC,Internal,No,Data Steward B,Tech Owner B,Complete,2026-02-23
+TreasuryOps,Treasury,EDW_TREASURY,CASH_POSITION,COUNTRY_CODE_DT,Public,No,Data Steward A,Tech Owner C,Complete,2026-06-03
+TreasuryOps,Treasury,EDW_TREASURY,CASH_POSITION,DATE_OF_BIRTH_SRC,Restricted,No,Data Steward E,Tech Owner D,Complete,2026-03-22
+BranchAnalytics,Retail Banking,EDW_BRANCHAN,BRANCH_VISIT,COUNTRY_CODE_SRC,Public,No,Data Steward A,Tech Owner D,Complete,2026-01-23
+PaymentsCore,Payments,EDW_PAYMENTS,SETTLEMENT_BATCH,SOURCE_SYSTEM_CD,Internal,No,Data Steward E,Tech Owner A,Complete,2026-02-01
+Customer360,Retail Banking,EDW_CUSTOMER,CUSTOMER_PROFILE,BALANCE_AMOUNT_CD,Confidential,No,Data Steward D,Tech Owner A,Complete,2026-02-13
+BranchAnalytics,Retail Banking,EDW_BRANCHAN,TELLER_ACTIVITY,ADDRESS_LINE_1_DT,Confidential,Yes,Data Steward C,Tech Owner D,Complete,2026-05-13
+LoanManager,Loans,EDW_LOANMANA,LOAN_PAYMENT,STATUS_CODE_SRC,Internal,No,Data Steward E,Tech Owner A,Complete,2026-04-24
+LoanManager,Loans,EDW_LOANMANA,LOAN_PAYMENT,COUNTRY_CODE,Public,No,Data Steward D,Tech Owner A,Complete,2026-04-01
+BranchAnalytics,Retail Banking,EDW_BRANCHAN,BRANCH_KPI,UPDATED_TS,Internal,No,Data Steward D,Tech Owner A,Complete,2026-01-26
+RiskView,Risk,EDW_RISKVIEW,MODEL_OUTPUT,STATUS_CODE_NUM,Internal,No,Data Steward C,Tech Owner A,Complete,2026-02-18
+PaymentsCore,Payments,EDW_PAYMENTS,SETTLEMENT_BATCH,BALANCE_AMOUNT_CD,Confidential,No,Data Steward B,Tech Owner D,Incomplete,2026-04-02
+RiskView,Risk,EDW_RISKVIEW,MODEL_OUTPUT,CREATED_TS_DT,Internal,No,Data Steward B,Tech Owner B,Complete,2026-04-08
+LoanManager,Loans,EDW_LOANMANA,LOAN_COLLATERAL,ACCOUNT_ID_SRC,Confidential,Yes,Data Steward C,Tech Owner C,Complete,2026-01-22
+FinanceMart,Finance,EDW_FINANCEM,REVENUE_SUMMARY,DATE_OF_BIRTH,Restricted,Yes,Data Steward B,Tech Owner B,Complete,2026-02-06
+FinanceMart,Finance,EDW_FINANCEM,GL_BALANCE,OPEN_DATE_SRC,Internal,No,Data Steward D,Tech Owner A,Complete,2026-03-10
+BranchAnalytics,Retail Banking,EDW_BRANCHAN,BRANCH_VISIT,SSN_LAST4_CD,Restricted,Yes,Data Steward D,Tech Owner D,Complete,2026-04-06
+Customer360,Retail Banking,EDW_CUSTOMER,CUSTOMER_PROFILE,PAYMENT_AMOUNT,Confidential,No,Data Steward B,Tech Owner B,Complete,2026-06-04
+LoanManager,Loans,EDW_LOANMANA,LOAN_ACCOUNT,ACCOUNT_ID_NUM,Confidential,Yes,Data Steward C,Tech Owner A,Incomplete,2026-06-04
+Customer360,Retail Banking,EDW_CUSTOMER,CUSTOMER_ACCOUNT_LINK,INTEREST_RATE_DT,Internal,No,Data Steward E,Tech Owner C,Complete,2026-06-25
+RiskView,Risk,EDW_RISKVIEW,RISK_SCORE,TRANSACTION_ID_DT,Internal,No,Data Steward C,Tech Owner C,Complete,2026-01-23
+CardHub,Cards,EDW_CARDHUB,CARD_TRANSACTION,CLOSE_DATE,Internal,No,Data Steward A,Tech Owner C,Complete,2026-02-07
+PaymentsCore,Payments,EDW_PAYMENTS,SETTLEMENT_BATCH,SSN_LAST4_NUM,Restricted,Yes,Data Steward B,Tech Owner A,Complete,2026-01-26
+CardHub,Cards,EDW_CARDHUB,CARD_TRANSACTION,SOURCE_SYSTEM_NUM,Internal,No,Data Steward E,Tech Owner C,Complete,2026-01-27
+RiskView,Risk,EDW_RISKVIEW,FRAUD_ALERT,BALANCE_AMOUNT_CD,Confidential,No,Data Steward E,Tech Owner C,Complete,2026-03-20
+BranchAnalytics,Retail Banking,EDW_BRANCHAN,BRANCH_KPI,SOURCE_SYSTEM_NUM,Internal,No,Data Steward D,Tech Owner D,Complete,2026-03-31
+Customer360,Retail Banking,EDW_CUSTOMER,CUSTOMER_PROFILE,CUSTOMER_ID_SRC,Confidential,No,Data Steward A,Tech Owner B,Complete,2026-06-05
+PaymentsCore,Payments,EDW_PAYMENTS,MERCHANT_PROFILE,ACCOUNT_ID,Confidential,Yes,Data Steward C,Tech Owner D,Complete,2026-04-10
+CardHub,Cards,EDW_CARDHUB,CARD_TRANSACTION,ADDRESS_LINE_1_CD,Confidential,Yes,Data Steward E,Tech Owner C,Complete,2026-01-03
+CardHub,Cards,EDW_CARDHUB,CARD_LIMIT,CITY,Internal,No,Data Steward C,Tech Owner A,Complete,2026-02-02
+TreasuryOps,Treasury,EDW_TREASURY,FX_RATE,CITY_NUM,Internal,No,Data Steward D,Tech Owner D,Complete,2026-04-05
+LoanManager,Loans,EDW_LOANMANA,LOAN_PAYMENT,LAST_NAME_NUM,Confidential,Yes,Data Steward D,Tech Owner C,Complete,2026-04-18
+FinanceMart,Finance,EDW_FINANCEM,REVENUE_SUMMARY,SOURCE_SYSTEM_NUM,Internal,No,Data Steward C,Tech Owner A,Complete,2026-04-01
+FinanceMart,Finance,EDW_FINANCEM,GL_BALANCE,CITY_SRC,Internal,No,Data Steward E,Tech Owner B,Complete,2026-04-20
+FinanceMart,Finance,EDW_FINANCEM,REVENUE_SUMMARY,CITY_NUM,Internal,No,Data Steward A,Tech Owner C,Complete,2026-02-28
+FinanceMart,Finance,EDW_FINANCEM,GL_BALANCE,FIRST_NAME,Confidential,Yes,Data Steward A,Tech Owner B,Complete,2026-04-15
+BranchAnalytics,Retail Banking,EDW_BRANCHAN,BRANCH_KPI,CUSTOMER_ID_DT,Confidential,Yes,Data Steward D,Tech Owner B,Complete,2026-01-20
+RiskView,Risk,EDW_RISKVIEW,FRAUD_ALERT,SOURCE_SYSTEM_DT,Internal,Yes,Data Steward E,Tech Owner C,Complete,2026-01-15
+LoanManager,Loans,EDW_LOANMANA,LOAN_ACCOUNT,SOURCE_SYSTEM,Internal,No,Data Steward D,Tech Owner D,Complete,2026-01-03
+CardHub,Cards,EDW_CARDHUB,CARD_LIMIT,BUSINESS_UNIT_NUM,Internal,No,Data Steward C,Tech Owner A,Complete,2026-02-04
+FinanceMart,Finance,EDW_FINANCEM,REVENUE_SUMMARY,SSN_LAST4,Restricted,Yes,Data Steward B,Tech Owner B,Complete,2026-06-23
+BranchAnalytics,Retail Banking,EDW_BRANCHAN,BRANCH_KPI,FIRST_NAME,Confidential,Yes,Data Steward B,Tech Owner B,Complete,2026-01-04
+RiskView,Risk,EDW_RISKVIEW,MODEL_OUTPUT,CITY,Internal,No,Data Steward B,Tech Owner C,Complete,2026-03-04
+LoanManager,Loans,EDW_LOANMANA,LOAN_ACCOUNT,CLOSE_DATE_NUM,Internal,No,Data Steward A,Tech Owner A,Complete,2026-05-16
+Customer360,Retail Banking,EDW_CUSTOMER,CUSTOMER_PROFILE,COUNTRY_CODE_SRC,Public,No,Data Steward B,Tech Owner D,Complete,2026-02-13
+RiskView,Risk,EDW_RISKVIEW,FRAUD_ALERT,CITY_DT,Public,No,Data Steward B,Tech Owner A,Complete,2026-02-14
+LoanManager,Loans,EDW_LOANMANA,LOAN_ACCOUNT,UPDATED_TS_SRC,Internal,No,Data Steward B,Tech Owner D,Complete,2026-04-08
+BranchAnalytics,Retail Banking,EDW_BRANCHAN,TELLER_ACTIVITY,EMAIL_ADDRESS,Confidential,Yes,Data Steward B,Tech Owner C,Complete,2026-05-19
