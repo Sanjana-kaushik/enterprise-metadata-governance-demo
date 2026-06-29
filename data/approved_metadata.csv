@@ -1,0 +1,12 @@
+</>csv
+Application_Name,Database_Name,Table_Name,Column_Name,Approved_Classification,Approved_PII
+Cards,EDW,CUSTOMER,CUSTOMER_ID,Confidential,Yes
+Cards,EDW,CUSTOMER,FIRST_NAME,Confidential,Yes
+Cards,EDW,CUSTOMER,LAST_NAME,Confidential,Yes
+Cards,EDW,CUSTOMER,CITY,Internal,No
+Retail Banking,EAP,ACCOUNT,ACCOUNT_NUMBER,Restricted,Yes
+Retail Banking,EAP,ACCOUNT,BALANCE,Restricted,No
+Treasury,EDW,PAYMENTS,AMOUNT,Restricted,No
+Risk,EDW,LOANS,CREDIT_SCORE,Confidential,Yes
+Finance,EAP,TRANSACTIONS,TRANSACTION_ID,Internal,No
+Payments,EDW,PAYMENTS,CARD_NUMBER,Restricted,Yes
